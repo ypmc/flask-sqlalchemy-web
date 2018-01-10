@@ -1,0 +1,20 @@
+rateSql:
+     #查询原有利率sql
+     query: "select baserate from special_customerlist where productid='029' and userid in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD')"
+     #根据customerId更新利率的sql
+     update: "update special_customerlist set baserate = ?,inputtime = ? where productid = '029' and userid in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD')"
+     #插入利率表
+     insert: "insert into special_customerlist (USERID,PRODUCTID,BASERATE,INPUTTIME,REMARK,STATUS) select userid,?,?,?,?,? from wl_register_customerinfo where customerid = ?"
+     #更新利率变更历史表，首先更新原有相关记录isnew = 0，然后insert
+     change: "update customer_rate_change set isnew = '0' where productid='029'and userid in ( select userid from wl_register_customerinfo where customerid = '#CUSTOMERID#' and channelid = 'APP_WDD');insert into customer_rate_change (userid,productid,oldrate,newrate,changedate,changetype,isnew,remark,inputtime) select userid,'029' ,'#OLDRATE#','#NEWRATE#','#CHANGEDATE#','#CHANGETYPE#','1','#REMARK#','#INPUTTIME#' from wl_register_customerinfo where customerid = '#CUSTOMERID#' and channelid = 'APP_WDD' "
+quotaSql: 
+     #查询原有额度
+     query: "select minicashlimit from LOAN_LIMIT_COO where WXACCOUNT in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD') union select minicashlimit from LOAN_LIMIT_COO_02 where WXACCOUNT in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD') union select minicashlimit from LOAN_LIMIT_COO_58 where WXACCOUNT in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD') union select minicashlimit from LOAN_LIMIT_COO_GREY where WXACCOUNT in (select userid from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD')"
+     #根据customerId更新额度的sql
+     update: "update loan_limit_coo set minicashlimit = # where wxaccount in (select userid from wl_register_customerinfo where customerid = '?' and channelid = 'APP_WDD');update loan_limit_coo_02 set minicashlimit = # where wxaccount in (select userid from wl_register_customerinfo where customerid = '?' and channelid = 'APP_WDD');update loan_limit_coo_58 set minicashlimit = # where wxaccount in (select userid from wl_register_customerinfo where customerid = '?' and channelid = 'APP_WDD');update loan_limit_coo_grey set minicashlimit = # where wxaccount in (select userid from wl_register_customerinfo where customerid = '?' and channelid = 'APP_WDD')"
+     #更新额度变更历史表
+     change: "insert into LIMIT_CHANGE_LOG (TEL,MINICASHLIMIT,OLDMINICASHLIMIT,CREATETIME,REMARK,PRODUCTID) select userid,?,?,?,?,'029' from wl_register_customerinfo where customerid = ? and channelid = 'APP_WDD'"
+
+	 
+	 
+	 

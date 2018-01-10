@@ -1,3 +1,6 @@
+import json
+import random
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, MetaData, Table
@@ -6,6 +9,7 @@ from sqlalchemy.sql import select
 
 import monitor_db
 import monitor_logger
+import monitor_util
 
 Base = declarative_base()
 
@@ -75,13 +79,13 @@ class FlaskMonitor(db.Model):
 
 # SQLAlchemy core
 metadata = MetaData()
-monitor = Table('t_credit_monitor', metadata, Column('id', Integer, primary_key=True)
-                , Column('credit_type', String(128))
-                , Column('query_type', String(128))
-                , Column('credit_status', String(128))
-                , Column('monitor_time', String(128))
-                , Column('elapsed_time', String(128))
-                , Column('create_time', String(128)))
+T_Monitor = Table('t_credit_monitor', metadata, Column('id', Integer, primary_key=True)
+                  , Column('credit_type', String(128))
+                  , Column('query_type', String(128))
+                  , Column('credit_status', String(128))
+                  , Column('monitor_time', String(128))
+                  , Column('elapsed_time', String(128))
+                  , Column('create_time', String(128)))
 
 
 # http://docs.sqlalchemy.org/en/latest/
@@ -97,7 +101,7 @@ def get_monitor_with_orm():
 # SQLAlchemy core
 def get_monitor_with_core():
     conn = monitor_db.get_connection_with_url(url)
-    sql = select([monitor])
+    sql = select([T_Monitor])
     result = conn.execute(sql)
     print(result.rowcount)
     print(type(result.fetchall()))
@@ -113,5 +117,20 @@ def get_monitor_flask_sqlalchemy(page=1, limit=10):
         return None
 
 
-if __name__ == '__main__':
-    print(get_monitor_flask_sqlalchemy(1, 2).items)
+# add monitor
+def add_monitor(d):
+    logger.debug('add monitor is %s' % d)
+    conn = monitor_db.get_connection_with_url(url)
+
+    for key in d.keys():
+        logger.debug("form data is %s" % json.loads(key))
+        d_dict = json.loads(key)
+        conn.execute(T_Monitor.insert(), [{
+            'credit_type': d_dict['credit_type']
+            , 'query_type': d_dict['query_type']
+            , 'credit_status': d_dict['credit_status']
+            , 'elapsed_time': int(random.random() * 100)
+        }])
+
+        if __name__ == '__main__':
+            print(get_monitor_flask_sqlalchemy(1, 2).items)

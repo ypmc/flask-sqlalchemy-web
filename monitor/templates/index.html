@@ -23,11 +23,79 @@
 <div style="float:right; width: 10%;margin: 10px 5px;font-family: Consolas;font-size: 20px;">
     <a href="#" onclick="javascript:logout();">logout</a>
 </div>
+<hr>
+<form class="layui-form" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label">请求类型</label>
+        <div class="layui-input-block">
+            <input type="text" name="credit_type" lay-verify="required" autocomplete="off" placeholder="请输入请求类型"
+                   class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">认证类型</label>
+        <div class="layui-input-block">
+            <input type="text" name="query_type" lay-verify="required" placeholder="请输入认证类型" autocomplete="off"
+                   class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">请求状态</label>
+            <div class="layui-input-inline">
+                <input type="tel" name="credit_status" lay-verify="required" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">上传文件</label>
+            <div class="layui-input-inline">
+                <input type="text" name="attach" id="upload_message" lay-verify="required" autocomplete="off"
+                       class="layui-input" readonly="readonly">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <img id='img_delete' src="{{ url_for('static', filename='images/delete.png')}}" onclick="do_delete()"
+                 style="display: none;">
+            <button type="button" class="layui-btn" id="upload"><i class="layui-icon"></i>上传文件</button>
+
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="monitor">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
 <table class="layui-table" id="list"></table>
 <script type="text/javascript">
     var logout = function () {
         window.location.href = '/logout';
     }
+</script>
+<script>
+    layui.use(['form', 'layer'], function () {
+        var $ = layui.$
+        var form = layui.form;
+        form.on('submit(monitor)', function (data) {
+            console.log(JSON.stringify(data.field));
+            $.ajax({
+                url: '/add'
+                , type: 'POST'
+                , data: JSON.stringify(data.field)
+                , success: function (response) {
+                    console.log(response);
+                    if (response.code == 0) {
+                        layer.msg('新增成功！');
+                    } else {
+                        layer.alert('新增失败！')
+                    }
+                }
+            })
+            return false;
+        });
+    })
 </script>
 <script>
     layui.use('table', function () {
@@ -49,6 +117,51 @@
             ]]
         });
     });
+
+    layui.use(['upload', 'layer'], function () {
+        var upload = layui.upload;
+        var layer = layui.layer;
+        upload.render({
+            elem: '#upload'
+            , url: '/upload'
+            , accept: 'file'
+            , exts: 'txt'
+            , size: 2048
+            , done: function (res) {
+                console.log(res);
+                if (res.code === 0) {
+                    layer.msg(res.filename + '上传成功');
+                    $("#upload_message").val(res.filename);
+                    $("#img_delete").show()
+                } else {
+                    layer.alert('上传失败');
+                    $("#upload_message").val('上传失败！');
+                }
+            }
+        });
+    })
+</script>
+<script>
+    function do_delete() {
+        var filename = $("#upload_message").val();
+        layui.use(['upload', 'layer'], function () {
+            var layer = layui.layer;
+            $.ajax({
+                url: '/delete?filename=' + filename + "&timestamp=" + new Date().getTime()
+                , type: 'GET'
+                , success: function (response) {
+                    console.log(response)
+                    if (response.code == 0) {
+                        layer.msg('"' + filename + '"删除成功！');
+                        $("#upload_message").val('')
+                        $("img_delete").hide()
+                    } else {
+                        layer.msg('"' + filename + '"删除失败！');
+                    }
+                }
+            })
+        })
+    }
 </script>
 </body>
 </html>
