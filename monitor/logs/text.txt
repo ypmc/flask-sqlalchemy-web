@@ -669,3 +669,29 @@
 2018-01-10 17:19:36,868 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
 2018-01-10 17:19:36,869 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
 2018-01-10 17:19:38,690 DEBUG   : form data is 2
+2018-01-10 19:24:31,736 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-10 19:24:31,774 DEBUG   : Authorization is None
+2018-01-10 19:24:31,781 DEBUG   : login get method
+2018-01-10 19:24:33,789 DEBUG   : login post method
+2018-01-10 19:24:55,272 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:25:19,146 DEBUG   : login get method
+2018-01-10 19:25:20,460 DEBUG   : login post method
+2018-01-10 19:25:20,461 DEBUG   : next is /
+2018-01-10 19:25:20,461 DEBUG   : error occurred: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested.  You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2018-01-10 19:25:21,509 DEBUG   : login get method
+2018-01-10 19:25:26,251 DEBUG   : login post method
+2018-01-10 19:25:26,252 DEBUG   : next is None
+2018-01-10 19:25:26,305 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-10 19:25:26,305 DEBUG   : index page, method is GET
+2018-01-10 19:25:26,456 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 19:25:26,456 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 19:25:47,759 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:25:50,137 DEBUG   : filename is Python.txt
+2018-01-10 19:25:50,137 DEBUG   : upload path exist
+2018-01-10 19:25:50,144 DEBUG   : Python.txt save successfully
+2018-01-10 19:32:10,544 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:32:10,545 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:32:31,573 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:32:31,573 DEBUG   : form data is {'credit_type': '3', 'query_type': '3', 'credit_status': '3', 'attach': 'Python.txt', 'file': ''}
+2018-01-10 19:32:31,573 DEBUG   : add monitor error 'NoneType' object has no attribute 'execute'
+2018-01-10 19:36:25,548 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
