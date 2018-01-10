@@ -1,0 +1,21 @@
+2018-01-10 09:45:07,040 DEBUG   : test
+2018-01-10 09:53:57,562 DEBUG   : Exception is name 'User' is not defined
+2018-01-10 09:53:58,421 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000001C19B0F1D68>
+2018-01-10 09:57:40,075 DEBUG   : Exception is name 'User' is not defined
+2018-01-10 09:57:41,008 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000001D661CA1BA8>
+2018-01-10 09:58:51,143 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000002A9128E5208>
+2018-01-10 09:59:04,645 DEBUG   : test
+2018-01-10 10:00:01,277 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 2
+2018-01-10 10:00:39,938 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-10 10:00:39,955 DEBUG   : Authorization is None
+2018-01-10 10:00:40,013 DEBUG   : login get method
+2018-01-10 10:00:41,757 DEBUG   : login post method
+2018-01-10 10:00:44,655 DEBUG   : db user id is test, detail is <id is 2, username is test, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is yyyyyy@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-07-11 11:37:33>
+2018-01-10 10:00:44,655 DEBUG   : next is /
+2018-01-10 10:00:44,684 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:00:44,684 DEBUG   : index page, method is GET
+2018-01-10 10:00:45,186 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:01:15,890 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:01:15,890 DEBUG   : index page, method is GET
+2018-01-10 10:01:15,949 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:01:15,949 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5

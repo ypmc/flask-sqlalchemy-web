@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>错误</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/wd_favicon.ico')}}"/>
+</head>
+<body>
+<div style="margin: auto; width: 100%; text-align: center;">
+    <img src="{{url_for('static', filename='images/400.png')}}" alt="非法请求！">
+</div>
+<div style="width:100%; margin: auto; height: 20px;line-height: 20px;text-align: center; vertical-align: middle">
+    <a href="#" onclick="javascript:window.location.href='/login'">返回</a>
+</div>
+</body>
+</html>
