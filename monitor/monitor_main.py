@@ -173,7 +173,7 @@ def get_list():
         result = json.dumps({"code": 0, "msg": "", "count": pages.total, "data": data})
         return result
 
-
+# http://flask.pocoo.org/docs/0.12/patterns/fileuploads/
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if request.method == 'POST':

@@ -132,5 +132,6 @@ def add_monitor(d):
             , 'elapsed_time': int(random.random() * 100)
         }])
 
-        if __name__ == '__main__':
-            print(get_monitor_flask_sqlalchemy(1, 2).items)
+
+if __name__ == '__main__':
+    print(get_monitor_flask_sqlalchemy(1, 2).items)

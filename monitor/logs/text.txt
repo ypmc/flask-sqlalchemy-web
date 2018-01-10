@@ -659,3 +659,13 @@
 2018-01-10 17:17:21,644 DEBUG   : ABTest 访问小贷Sql.txt save successfully
 2018-01-10 17:17:22,535 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
 2018-01-10 17:17:22,535 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:19:27,589 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:19:27,590 DEBUG   : index page, method is GET
+2018-01-10 17:19:27,659 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:19:27,659 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:19:34,190 DEBUG   : filename is ABTest需要访问的表.txt
+2018-01-10 17:19:34,198 DEBUG   : upload path exist
+2018-01-10 17:19:34,200 DEBUG   : ABTest需要访问的表.txt save successfully
+2018-01-10 17:19:36,868 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
+2018-01-10 17:19:36,869 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
+2018-01-10 17:19:38,690 DEBUG   : form data is 2
