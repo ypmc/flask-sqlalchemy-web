@@ -121,16 +121,24 @@ def get_monitor_flask_sqlalchemy(page=1, limit=10):
 def add_monitor(d):
     logger.debug('add monitor is %s' % d)
     conn = monitor_db.get_connection_with_url(url)
+    # Content-Type: application/json
+    conn.execute(T_Monitor.insert(), [{
+        'credit_type': d['credit_type']
+        , 'query_type': d['query_type']
+        , 'credit_status': d['credit_status']
+        , 'elapsed_time': int(random.random() * 100)
+    }])
 
-    for key in d.keys():
-        logger.debug("form data is %s" % json.loads(key))
-        d_dict = json.loads(key)
-        conn.execute(T_Monitor.insert(), [{
-            'credit_type': d_dict['credit_type']
-            , 'query_type': d_dict['query_type']
-            , 'credit_status': d_dict['credit_status']
-            , 'elapsed_time': int(random.random() * 100)
-        }])
+    # # Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+    # for key in d.keys():
+    #     logger.debug("form data is %s" % json.loads(key))
+    #     d_dict = json.loads(key)
+    #     conn.execute(T_Monitor.insert(), [{
+    #         'credit_type': d_dict['credit_type']
+    #         , 'query_type': d_dict['query_type']
+    #         , 'credit_status': d_dict['credit_status']
+    #         , 'elapsed_time': int(random.random() * 100)
+    #     }])
 
 
 if __name__ == '__main__':

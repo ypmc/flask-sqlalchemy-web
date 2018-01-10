@@ -695,3 +695,12 @@
 2018-01-10 19:32:31,573 DEBUG   : form data is {'credit_type': '3', 'query_type': '3', 'credit_status': '3', 'attach': 'Python.txt', 'file': ''}
 2018-01-10 19:32:31,573 DEBUG   : add monitor error 'NoneType' object has no attribute 'execute'
 2018-01-10 19:36:25,548 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:53:05,696 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-10 19:53:05,696 DEBUG   : index page, method is GET
+2018-01-10 19:53:05,816 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 19:53:05,816 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 19:53:26,926 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:53:27,011 DEBUG   : filename is Python.txt
+2018-01-10 19:53:27,012 DEBUG   : upload path exist
+2018-01-10 19:53:27,019 DEBUG   : Python.txt save successfully
+2018-01-10 19:53:36,803 DEBUG   : form data is : ImmutableMultiDict([])

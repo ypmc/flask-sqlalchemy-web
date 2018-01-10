@@ -110,13 +110,13 @@ def login():
         username = request.form['username']
         password = request.form['password']
 
-        user = monitor_db.get_user_session(username)
-        logger.debug('db user id is %s, detail is %s' % (user.username, user))
+        # user = monitor_db.get_user_session(username)
+        # logger.debug('db user id is %s, detail is %s' % (user.username, user))
 
         next_url = request.args.get("next")
         logger.debug('next is %s' % next_url)
 
-        if password == 'admin123' and username == user.username:
+        if password == 'admin123' and username == 'admin':
             # set login user
             user = User()
             user.id = username
@@ -249,7 +249,11 @@ def add_monitor():
     if request.method == 'POST':
         logger.debug('form data is : %s' % request.form)
         try:
-            monitor_util.add_monitor(request.form)
+            # # if request data is 'application/x-www-form-urlencoded'
+            # monitor_util.add_monitor(request.form)
+            # if request data is 'application/json'
+            monitor_util.add_monitor(request.get_data())
+            # monitor_util.add_monitor(request.data)
             return jsonify({'code': 0, 'msg': ''})
         except Exception as e:
             logger.debug("add monitor error %s" % e)

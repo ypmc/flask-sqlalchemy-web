@@ -84,6 +84,7 @@
                 url: '/add'
                 , type: 'POST'
                 , data: JSON.stringify(data.field)
+                , contentType: 'application/json'
                 , success: function (response) {
                     console.log(response);
                     if (response.code == 0) {
