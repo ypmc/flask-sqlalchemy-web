@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/wd_favicon.ico')}}"/>
 </head>
 <body>
+
 <div style="width: 80%; float:left; margin: 10px 5px;font-family: Consolas;font-size: 20px;">
     {% if name %}
     Hello {{ name }}!
@@ -18,6 +19,7 @@
     Hello World!
     {% endif %}
 </div>
+
 <div style="float:right; width: 10%;margin: 10px 5px;font-family: Consolas;font-size: 20px;">
     <a href="#" onclick="javascript:logout();">logout</a>
 </div>
