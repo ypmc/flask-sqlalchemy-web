@@ -28,26 +28,32 @@
     <div class="layui-form-item">
         <label class="layui-form-label">请求类型</label>
         <div class="layui-input-block">
-            <input type="text" name="credit_type" lay-verify="required" autocomplete="off" placeholder="请输入请求类型"
-                   class="layui-input">
+            <div class="layui-input-inline">
+                <input type="text" name="credit_type" lay-verify="required" autocomplete="off" placeholder="请输入请求类型"
+                       class="layui-input">
+            </div>
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">认证类型</label>
         <div class="layui-input-block">
-            <input type="text" name="query_type" lay-verify="required" placeholder="请输入认证类型" autocomplete="off"
-                   class="layui-input">
+            <div class="layui-input-inline">
+                <input type="text" name="query_type" lay-verify="required" placeholder="请输入认证类型" autocomplete="off"
+                       class="layui-input">
+            </div>
         </div>
     </div>
 
     <div class="layui-form-item">
-        <div class="layui-inline">
-            <label class="layui-form-label">请求状态</label>
+        <label class="layui-form-label">请求状态</label>
+        <div class="layui-input-block">
             <div class="layui-input-inline">
                 <input type="tel" name="credit_status" lay-verify="required" placeholder="请输入请求状态" autocomplete="off"
                        class="layui-input">
             </div>
         </div>
+    </div>
+    <div class="layui-form-item">
         <div class="layui-inline">
             <label class="layui-form-label">上传文件</label>
             <div class="layui-input-inline">
@@ -62,6 +68,19 @@
 
         </div>
     </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">图片上传</label>
+        <div class="layui-input-block">
+            <div class="layui-upload">
+                <button type="button" class="layui-btn" id="btn_photo">上传图片</button>
+                <div class="layui-upload-list">
+                    <img class="layui-upload-img" id="photo"/>
+                    <p id="txt_photo" style="margin: 10px; font-size: 20px;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
     <div class="layui-form-item">
         <div class="layui-input-block">
             <button class="layui-btn" lay-submit="" lay-filter="monitor">立即提交</button>
@@ -139,6 +158,36 @@
                     layer.alert('上传失败');
                     $("#upload_message").val('上传失败！');
                 }
+            }
+        });
+
+        var photoUpload = upload.render({
+            elem: '#btn_photo'
+            , url: '/flask-upload'
+            , exts: 'jpg|png|jpeg'
+            , size: 10240
+            , before: function (obj) {
+                obj.preview(function (index, file, result) {
+                    $('#photo').attr('src', result);
+                    $('#photo').css('width', '300');
+                    $('#photo').css('height', '300');
+                });
+            }
+            , done: function (res) {
+                if (res.code == 0) {
+                    layer.msg(res.filename + '上传成功！');
+                    var href = '<a href="' + res.msg + '" style="color:blue; text-decoration: solid;">' + res.msg + '</a>'
+                    $('#txt_photo').html(href)
+                } else {
+                    return layer.msg('上传失败');
+                }
+            }
+            , error: function () {
+                var photo = $('#txt_photo');
+                photo.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-mini demo-reload">重试</a>');
+                photo.find('#btn_photo').on('click', function () {
+                    photoUpload.upload();
+                });
             }
         });
     })

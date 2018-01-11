@@ -727,3 +727,190 @@
 2018-01-11 08:51:41,392 DEBUG   : index page, method is GET
 2018-01-11 08:51:41,461 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 08:51:41,461 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:52:24,812 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:52:24,812 DEBUG   : index page, method is GET
+2018-01-11 08:52:24,879 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:52:24,879 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:52:37,207 DEBUG   : filename is Python.txt
+2018-01-11 08:52:37,208 DEBUG   : upload path exist
+2018-01-11 08:52:37,216 DEBUG   : Python.txt save successfully
+2018-01-11 08:52:40,494 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:52:40,494 DEBUG   : add monitor is b'{"credit_type":"4","query_type":"4","credit_status":"4","attach":"Python.txt","file":""}'
+2018-01-11 15:13:35,310 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 15:13:35,311 DEBUG   : Authorization is None
+2018-01-11 15:13:35,331 DEBUG   : login get method
+2018-01-11 15:13:37,062 DEBUG   : login post method
+2018-01-11 15:13:40,466 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-11 15:13:40,466 DEBUG   : next is /
+2018-01-11 15:13:40,478 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:13:40,478 DEBUG   : index page, method is GET
+2018-01-11 15:13:40,759 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:13:40,759 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:15:05,622 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:16:21,142 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:18:06,990 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:20:13,895 DEBUG   : upload file exception: 'method' object is not subscriptable
+2018-01-11 15:28:11,645 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 15:39:35,299 DEBUG   : 2018-01-11_151455_2.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455_2.jpg
+2018-01-11 15:41:03,126 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455.jpg
+2018-01-11 15:41:35,692 DEBUG   : delete file : 2018-01-11_151455.jpg, timestamp is 1515656495661
+2018-01-11 15:41:41,495 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455.jpg
+2018-01-11 15:43:08,288 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:43:08,289 DEBUG   : index page, method is GET
+2018-01-11 15:43:08,404 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:43:08,404 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:43:11,716 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 15:47:47,879 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:47:47,880 DEBUG   : index page, method is GET
+2018-01-11 15:47:47,985 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:47:47,985 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:47:58,928 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:49:30,645 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:49:30,646 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:57:01,428 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:59:36,203 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:00:13,014 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:17:39,879 DEBUG   : filename is 2018-01-11_151455.jpg
+2018-01-11 16:31:03,069 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:31:03,069 DEBUG   : index page, method is GET
+2018-01-11 16:31:03,457 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:31:03,457 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:31:13,647 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 16:34:38,887 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:34:38,888 DEBUG   : index page, method is GET
+2018-01-11 16:34:39,582 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:34:39,583 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:34:52,256 DEBUG   : 2018-01-11_151455_2.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_2.jpg
+2018-01-11 16:34:57,138 DEBUG   : filename is 2018-01-11_151455_2.jpg
+2018-01-11 16:35:54,524 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:35:54,524 DEBUG   : index page, method is GET
+2018-01-11 16:35:54,585 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:35:54,585 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:00,780 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:00,781 DEBUG   : index page, method is GET
+2018-01-11 16:37:00,856 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:00,857 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:20,690 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:20,690 DEBUG   : index page, method is GET
+2018-01-11 16:37:20,871 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:20,872 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:41,929 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:41,930 DEBUG   : index page, method is GET
+2018-01-11 16:37:42,107 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:42,107 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:47,420 DEBUG   : 2018-01-11_151455_3.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_3.jpg
+2018-01-11 16:38:21,734 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:38:21,734 DEBUG   : index page, method is GET
+2018-01-11 16:38:21,810 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:38:21,810 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:38:24,804 DEBUG   : 2018-01-11_151455_4.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_4.jpg
+2018-01-11 16:38:50,430 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:38:50,430 DEBUG   : index page, method is GET
+2018-01-11 16:38:50,513 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:38:50,514 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:38:53,460 DEBUG   : 2018-01-11_151455_5.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_5.jpg
+2018-01-11 16:39:15,876 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:39:15,876 DEBUG   : index page, method is GET
+2018-01-11 16:39:15,937 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:39:15,937 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:39:19,522 DEBUG   : 2018-01-11_151455_6.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_6.jpg
+2018-01-11 16:39:50,334 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:39:50,335 DEBUG   : index page, method is GET
+2018-01-11 16:39:50,558 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:39:50,559 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:39:53,994 DEBUG   : 2018-01-11_151455_7.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_7.jpg
+2018-01-11 16:41:02,925 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:41:02,926 DEBUG   : index page, method is GET
+2018-01-11 16:41:03,097 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:41:03,097 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:41:06,458 DEBUG   : 2018-01-11_151455_8.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_8.jpg
+2018-01-11 16:41:14,718 DEBUG   : filename is 2018-01-11_151455_8.jpg
+2018-01-11 16:41:17,299 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:41:17,299 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:41:20,704 DEBUG   : 2018-01-11_151455_9.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_9.jpg
+2018-01-11 16:42:46,399 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:42:46,399 DEBUG   : index page, method is GET
+2018-01-11 16:42:46,556 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:42:46,556 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:43:10,650 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:43:10,651 DEBUG   : index page, method is GET
+2018-01-11 16:43:10,804 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:43:10,805 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:43:57,967 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:43:57,968 DEBUG   : index page, method is GET
+2018-01-11 16:43:58,126 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:43:58,126 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:44:41,472 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:44:41,472 DEBUG   : index page, method is GET
+2018-01-11 16:44:41,553 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:44:41,553 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:44:47,916 DEBUG   : 2018-01-11_151455_10.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_10.jpg
+2018-01-11 16:45:46,537 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:45:46,537 DEBUG   : index page, method is GET
+2018-01-11 16:45:46,619 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:45:46,619 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:45:49,967 DEBUG   : 2018-01-11_151455_11.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_11.jpg
+2018-01-11 16:45:58,137 DEBUG   : filename is 2018-01-11_151455_11.jpg
+2018-01-11 16:46:00,111 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:00,111 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:03,803 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:03,803 DEBUG   : index page, method is GET
+2018-01-11 16:46:03,864 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:03,864 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:29,616 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:29,616 DEBUG   : index page, method is GET
+2018-01-11 16:46:29,672 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:29,672 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:45,363 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 16:46:45,363 DEBUG   : Authorization is None
+2018-01-11 16:46:45,383 DEBUG   : login get method
+2018-01-11 16:46:47,152 DEBUG   : login post method
+2018-01-11 16:46:49,306 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-11 16:46:49,306 DEBUG   : next is /
+2018-01-11 16:46:49,323 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:49,323 DEBUG   : index page, method is GET
+2018-01-11 16:46:50,029 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:50,030 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:54:40,389 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:55:40,106 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:55:40,106 DEBUG   : index page, method is GET
+2018-01-11 16:55:40,255 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:55:40,256 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:55:46,800 DEBUG   : upload file exception: resolve_conflict() missing 2 required positional arguments: 'target_folder' and 'basename'
+2018-01-11 16:56:59,753 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:56:59,754 DEBUG   : index page, method is GET
+2018-01-11 16:56:59,875 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:56:59,875 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:57:08,140 DEBUG   : IMG20171224140804_1_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_1.jpg
+2018-01-11 16:58:27,312 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:58:27,313 DEBUG   : index page, method is GET
+2018-01-11 16:58:27,408 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:58:27,408 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:58:35,702 DEBUG   : IMG20171224140804_1_2.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_2.jpg
+2018-01-11 16:58:44,532 DEBUG   : filename is IMG20171224140804_1_2.jpg
+2018-01-11 16:58:49,736 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:58:49,736 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:58:59,460 DEBUG   : IMG20171224140804_1_3.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_3.jpg
+2018-01-11 17:01:30,305 DEBUG   : IMG20171224140804_1_4.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_4.jpg
+2018-01-11 17:01:48,147 DEBUG   : IMG20171224140804_1_5.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_5.jpg
+2018-01-11 17:02:01,483 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 17:02:01,483 DEBUG   : index page, method is GET
+2018-01-11 17:02:01,542 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 17:02:01,542 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:32:48,586 DEBUG   : request_loader url is http://127.0.0.1:9000/logout, request args is ImmutableMultiDict([])
+2018-01-11 19:32:48,586 DEBUG   : Authorization is None
+2018-01-11 19:32:48,594 DEBUG   : login get method
+2018-01-11 19:32:50,177 DEBUG   : login post method
+2018-01-11 19:32:50,177 DEBUG   : next is /logout
+2018-01-11 19:32:50,197 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:32:50,197 DEBUG   : logout page
+2018-01-11 19:32:50,202 DEBUG   : login get method
+2018-01-11 19:32:50,203 DEBUG   : request_loader url is http://127.0.0.1:9000/login, request args is ImmutableMultiDict([])
+2018-01-11 19:32:50,203 DEBUG   : Authorization is None
+2018-01-11 19:32:59,124 DEBUG   : login post method
+2018-01-11 19:32:59,125 DEBUG   : next is None
+2018-01-11 19:32:59,132 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:32:59,132 DEBUG   : index page, method is GET
+2018-01-11 19:32:59,246 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 19:32:59,246 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)

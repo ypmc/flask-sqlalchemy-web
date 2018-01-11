@@ -13,6 +13,7 @@ import monitor_util
 import monitor_db
 
 # from werkzeug.utils import secure_filename
+from flask_uploads import UploadSet, IMAGES, configure_uploads
 
 app = Flask(__name__)
 login_manager = LoginManager()
@@ -24,6 +25,11 @@ logger = monitor_logger.get_logger(__name__)
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 UPLOAD_PATH = 'upload'
+
+app.config['UPLOADS_DEFAULT_DEST'] = UPLOAD_PATH
+app.config['UPLOADS_DEFAULT_URL'] = 'http://127.0.0.1:9000/'
+uploaded_photos = UploadSet()
+configure_uploads(app, uploaded_photos)
 
 
 # http://www.pythondoc.com/flask-login/index.html#request-loader
@@ -172,6 +178,47 @@ def get_list():
             data.append(item.__dict__)
         result = json.dumps({"code": 0, "msg": "", "count": pages.total, "data": data})
         return result
+
+
+# http://flask-uploads.readthedocs.io/en/latest/
+@app.route('/flask-upload', methods=['POST'])
+def flask_upload():
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            logger.debug('No file part')
+            return jsonify({'code': -1, 'filename': '', 'msg': 'No file part'})
+        file = request.files['file']
+        # if user does not select file, browser also submit a empty part without filename
+        if file.filename == '':
+            logger.debug('No selected file')
+            return jsonify({'code': -1, 'filename': '', 'msg': 'No selected file'})
+        else:
+            try:
+                filename = uploaded_photos.save(file)
+                logger.debug('%s url is %s' % (filename, uploaded_photos.url(filename)))
+                return jsonify({'code': 0, 'filename': filename, 'msg': uploaded_photos.url(filename)})
+            except Exception as e:
+                logger.debug('upload file exception: %s' % e)
+                return jsonify({'code': -1, 'filename': '', 'msg': 'Error occurred'})
+    else:
+        return jsonify({'code': -1, 'filename': '', 'msg': 'Method not allowed'})
+
+
+# show photo
+@app.route('/files/<string:filename>', methods=['GET'])
+def show_photo(filename):
+    if request.method == 'GET':
+        if filename is None:
+            pass
+        else:
+            logger.debug('filename is %s' % filename)
+            image_data = open(os.path.join(UPLOAD_PATH, 'files/%s' % filename), "rb").read()
+            response = make_response(image_data)
+            response.headers['Content-Type'] = 'image/png'
+            return response
+    else:
+        pass
 
 
 # http://flask.pocoo.org/docs/0.12/patterns/fileuploads/
