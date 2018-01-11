@@ -121,6 +121,7 @@ def get_monitor_flask_sqlalchemy(page=1, limit=10):
 def add_monitor(d):
     logger.debug('add monitor is %s' % d)
     conn = monitor_db.get_connection_with_url(url)
+    d = json.loads(d)
     # Content-Type: application/json
     conn.execute(T_Monitor.insert(), [{
         'credit_type': d['credit_type']

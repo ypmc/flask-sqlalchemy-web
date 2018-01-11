@@ -704,3 +704,26 @@
 2018-01-10 19:53:27,012 DEBUG   : upload path exist
 2018-01-10 19:53:27,019 DEBUG   : Python.txt save successfully
 2018-01-10 19:53:36,803 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:49:22,149 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 08:49:22,167 DEBUG   : Authorization is None
+2018-01-11 08:49:22,173 DEBUG   : login get method
+2018-01-11 08:49:24,170 DEBUG   : login post method
+2018-01-11 08:49:24,171 DEBUG   : next is /
+2018-01-11 08:49:24,236 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:49:24,236 DEBUG   : index page, method is GET
+2018-01-11 08:49:24,665 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:49:24,665 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:50:09,449 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:50:09,449 DEBUG   : index page, method is GET
+2018-01-11 08:50:09,537 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:50:09,537 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:50:24,309 DEBUG   : filename is lock.txt
+2018-01-11 08:50:24,309 DEBUG   : upload path exist
+2018-01-11 08:50:24,333 DEBUG   : lock.txt save successfully
+2018-01-11 08:50:26,235 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:50:26,235 DEBUG   : add monitor is b'{"credit_type":"4","query_type":"4","credit_status":"4","attach":"lock.txt","file":""}'
+2018-01-11 08:50:28,081 DEBUG   : add monitor error byte indices must be integers or slices, not str
+2018-01-11 08:51:41,392 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:51:41,392 DEBUG   : index page, method is GET
+2018-01-11 08:51:41,461 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:51:41,461 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
