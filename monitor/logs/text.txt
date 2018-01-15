@@ -105,14 +105,14 @@
 2018-01-10 14:00:54,516 DEBUG   : index page, method is GET
 2018-01-10 14:00:54,587 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:00:54,587 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:01:01,375 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:01:01,375 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:01:01,385 DEBUG   : upload path exist
 2018-01-10 14:01:01,388 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:03:56,719 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:03:56,719 DEBUG   : index page, method is GET
 2018-01-10 14:03:56,786 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:03:56,786 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:04:05,366 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 14:04:05,366 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 14:04:05,381 DEBUG   : upload path exist
 2018-01-10 14:04:05,389 DEBUG   : ABTest.txt save successfully
 2018-01-10 14:16:19,150 DEBUG   : user_loader user is test, is_authenticated True
@@ -127,14 +127,14 @@
 2018-01-10 14:21:49,763 DEBUG   : index page, method is GET
 2018-01-10 14:21:49,887 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:21:49,888 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:21:54,393 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:21:54,393 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:21:54,393 DEBUG   : upload path exist
 2018-01-10 14:21:54,397 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:23:55,907 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:23:55,907 DEBUG   : index page, method is GET
 2018-01-10 14:23:56,070 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:23:56,070 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:24:00,196 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:24:00,196 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:24:00,197 DEBUG   : upload path exist
 2018-01-10 14:24:00,199 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:25:03,550 DEBUG   : user_loader user is test, is_authenticated True
@@ -161,28 +161,28 @@
 2018-01-10 14:30:27,420 DEBUG   : index page, method is GET
 2018-01-10 14:30:30,291 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:30:30,292 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:30:39,111 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:30:39,111 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:30:39,111 DEBUG   : upload path exist
 2018-01-10 14:30:39,114 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:31:41,961 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:31:41,962 DEBUG   : index page, method is GET
 2018-01-10 14:31:42,115 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:31:42,116 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:31:51,020 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:31:51,020 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:31:51,020 DEBUG   : upload path exist
 2018-01-10 14:31:51,023 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:32:31,409 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:32:31,410 DEBUG   : index page, method is GET
 2018-01-10 14:32:33,746 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:32:33,746 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:32:40,194 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:32:40,194 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:32:40,194 DEBUG   : upload path exist
 2018-01-10 14:32:40,197 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:34:04,968 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:34:04,969 DEBUG   : index page, method is GET
 2018-01-10 14:34:06,860 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:34:06,860 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:34:10,201 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:34:10,201 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:34:10,201 DEBUG   : upload path exist
 2018-01-10 14:34:10,205 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:35:08,774 DEBUG   : user_loader user is test, is_authenticated True
@@ -233,49 +233,49 @@
 2018-01-10 14:55:42,361 DEBUG   : index page, method is GET
 2018-01-10 14:55:42,422 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:55:42,423 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:55:49,660 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:55:49,660 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:55:49,661 DEBUG   : upload path exist
 2018-01-10 14:55:49,664 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:56:13,543 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:56:13,543 DEBUG   : index page, method is GET
 2018-01-10 14:56:13,679 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:56:13,679 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:56:17,917 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:56:17,917 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:56:17,917 DEBUG   : upload path exist
 2018-01-10 14:56:17,921 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:56:55,717 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:56:55,717 DEBUG   : index page, method is GET
 2018-01-10 14:56:55,808 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:56:55,809 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:56:59,576 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:56:59,576 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:56:59,576 DEBUG   : upload path exist
 2018-01-10 14:56:59,580 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:58:27,044 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:58:27,044 DEBUG   : index page, method is GET
 2018-01-10 14:58:27,196 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:58:27,196 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:58:31,912 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 14:58:31,912 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 14:58:31,912 DEBUG   : upload path exist
 2018-01-10 14:58:31,925 DEBUG   : ABTest.txt save successfully
 2018-01-10 14:59:03,466 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:59:03,466 DEBUG   : index page, method is GET
 2018-01-10 14:59:03,590 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:59:03,590 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:59:07,926 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:59:07,926 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:59:07,926 DEBUG   : upload path exist
 2018-01-10 14:59:07,930 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 14:59:26,319 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 14:59:26,319 DEBUG   : index page, method is GET
 2018-01-10 14:59:26,452 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 14:59:26,452 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 14:59:32,051 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 14:59:32,051 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 14:59:32,051 DEBUG   : upload path exist
 2018-01-10 14:59:32,058 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:00:50,162 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:00:50,162 DEBUG   : index page, method is GET
 2018-01-10 15:00:50,292 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:00:50,293 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:00:53,826 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:00:53,826 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:00:53,827 DEBUG   : upload path exist
 2018-01-10 15:00:53,831 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:01:37,196 DEBUG   : user_loader user is test, is_authenticated True
@@ -286,76 +286,76 @@
 2018-01-10 15:01:41,159 DEBUG   : index page, method is GET
 2018-01-10 15:01:41,281 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:01:41,281 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:01:45,492 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:01:45,492 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:01:45,492 DEBUG   : upload path exist
 2018-01-10 15:01:45,495 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:04:33,571 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:04:33,571 DEBUG   : index page, method is GET
 2018-01-10 15:04:33,776 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:04:33,776 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:04:39,232 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:04:39,232 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:04:39,232 DEBUG   : upload path exist
 2018-01-10 15:04:39,236 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:16:06,183 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:16:06,183 DEBUG   : index page, method is GET
 2018-01-10 15:16:06,316 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:16:06,316 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:16:13,832 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:16:13,832 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:16:13,833 DEBUG   : upload path exist
 2018-01-10 15:16:13,836 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:16:59,051 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:16:59,051 DEBUG   : index page, method is GET
 2018-01-10 15:16:59,216 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:16:59,217 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:17:02,837 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:17:02,837 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:17:02,837 DEBUG   : upload path exist
 2018-01-10 15:17:02,841 DEBUG   : ABTest_Sql.txt save successfully
 2018-01-10 15:17:38,521 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:17:38,521 DEBUG   : index page, method is GET
 2018-01-10 15:17:40,331 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:17:40,331 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:17:46,092 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:17:46,092 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:17:46,092 DEBUG   : upload path exist
 2018-01-10 15:17:46,095 DEBUG   : ABTest_Sql.txt save successfully
-2018-01-10 15:17:48,694 DEBUG   : delete file : ABTest ·ÃÎÊĞ¡´ûSql.txt, timestamp is 1515568668689
+2018-01-10 15:17:48,694 DEBUG   : delete file : ABTest è®¿é—®å°è´·Sql.txt, timestamp is 1515568668689
 2018-01-10 15:19:45,015 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:19:45,015 DEBUG   : index page, method is GET
 2018-01-10 15:19:45,182 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:19:45,182 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:19:54,640 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 15:19:54,640 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 15:19:54,640 DEBUG   : upload path exist
-2018-01-10 15:19:54,649 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 15:20:00,147 DEBUG   : delete file : ABTest½¨±íÓï¾ä.txt, timestamp is 1515568800137
+2018-01-10 15:19:54,649 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 15:20:00,147 DEBUG   : delete file : ABTestå»ºè¡¨è¯­å¥.txt, timestamp is 1515568800137
 2018-01-10 15:26:34,095 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:26:34,096 DEBUG   : index page, method is GET
 2018-01-10 15:26:34,303 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:26:34,303 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:26:42,199 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:26:42,199 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:26:42,199 DEBUG   : upload path exist
-2018-01-10 15:26:42,203 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 15:26:46,890 DEBUG   : delete file : ABTest ·ÃÎÊĞ¡´ûSql.txt, timestamp is 1515569206885
-2018-01-10 15:26:46,892 DEBUG   : upload\ABTest ·ÃÎÊĞ¡´ûSql.txt removed successfully
-2018-01-10 15:27:06,626 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 15:26:42,203 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 15:26:46,890 DEBUG   : delete file : ABTest è®¿é—®å°è´·Sql.txt, timestamp is 1515569206885
+2018-01-10 15:26:46,892 DEBUG   : upload\ABTest è®¿é—®å°è´·Sql.txt removed successfully
+2018-01-10 15:27:06,626 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 15:27:06,627 DEBUG   : upload path exist
-2018-01-10 15:27:06,630 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 15:27:08,652 DEBUG   : delete file : ABTest½¨±íÓï¾ä.txt, timestamp is 1515569228639
-2018-01-10 15:27:08,653 DEBUG   : upload\ABTest½¨±íÓï¾ä.txt removed successfully
+2018-01-10 15:27:06,630 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 15:27:08,652 DEBUG   : delete file : ABTestå»ºè¡¨è¯­å¥.txt, timestamp is 1515569228639
+2018-01-10 15:27:08,653 DEBUG   : upload\ABTestå»ºè¡¨è¯­å¥.txt removed successfully
 2018-01-10 15:30:09,355 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:30:09,356 DEBUG   : index page, method is GET
 2018-01-10 15:30:09,996 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:30:09,996 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:30:15,728 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:30:15,728 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:30:15,728 DEBUG   : upload path exist
-2018-01-10 15:30:15,733 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:30:15,733 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:32:10,865 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:32:10,866 DEBUG   : index page, method is GET
 2018-01-10 15:32:11,064 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:32:11,064 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:32:16,520 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:32:16,520 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:32:16,520 DEBUG   : upload path exist
-2018-01-10 15:32:16,523 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 15:32:18,005 DEBUG   : delete file : ABTest ·ÃÎÊĞ¡´ûSql.txt, timestamp is 1515569537999
-2018-01-10 15:32:18,006 DEBUG   : upload\ABTest ·ÃÎÊĞ¡´ûSql.txt removed successfully
+2018-01-10 15:32:16,523 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 15:32:18,005 DEBUG   : delete file : ABTest è®¿é—®å°è´·Sql.txt, timestamp is 1515569537999
+2018-01-10 15:32:18,006 DEBUG   : upload\ABTest è®¿é—®å°è´·Sql.txt removed successfully
 2018-01-10 15:41:33,953 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:41:33,954 DEBUG   : index page, method is GET
 2018-01-10 15:41:34,093 DEBUG   : get_list: page = 1, limit = 5
@@ -368,30 +368,30 @@
 2018-01-10 15:47:50,015 DEBUG   : index page, method is GET
 2018-01-10 15:47:50,198 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:47:50,199 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:47:56,150 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:47:56,150 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:47:56,151 DEBUG   : upload path exist
-2018-01-10 15:47:56,158 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:47:56,158 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:48:27,012 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:48:27,012 DEBUG   : index page, method is GET
 2018-01-10 15:48:27,157 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:48:27,158 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:48:32,631 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:48:32,631 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:48:32,631 DEBUG   : upload path exist
-2018-01-10 15:48:32,634 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:48:32,634 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:49:00,571 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:49:00,571 DEBUG   : index page, method is GET
 2018-01-10 15:49:00,681 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:49:00,681 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:49:04,347 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:49:04,347 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:49:04,348 DEBUG   : upload path exist
-2018-01-10 15:49:04,351 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:49:04,351 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:49:13,802 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:49:13,803 DEBUG   : index page, method is GET
 2018-01-10 15:49:13,956 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:49:13,957 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:49:17,402 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:49:17,402 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:49:17,403 DEBUG   : upload path exist
-2018-01-10 15:49:17,406 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:49:17,406 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:52:08,311 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 15:52:08,311 DEBUG   : index page, method is GET
 2018-01-10 15:52:08,590 DEBUG   : get_list: page = 1, limit = 5
@@ -408,97 +408,97 @@
 2018-01-10 15:56:25,132 DEBUG   : index page, method is GET
 2018-01-10 15:56:25,255 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 15:56:25,255 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 15:56:38,071 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 15:56:38,071 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 15:56:38,071 DEBUG   : upload path exist
-2018-01-10 15:56:38,075 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 15:56:38,075 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 15:56:46,509 DEBUG   : delete file : undefined, timestamp is 1515571006503
 2018-01-10 16:00:40,159 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:00:40,159 DEBUG   : index page, method is GET
 2018-01-10 16:00:40,296 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:00:40,297 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:00:46,929 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:00:46,929 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:00:46,929 DEBUG   : upload path exist
-2018-01-10 16:00:46,932 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:00:51,274 DEBUG   : delete file : ABTest ·ÃÎÊĞ¡´ûSql.txt, timestamp is 1515571251267
-2018-01-10 16:00:51,275 DEBUG   : upload\ABTest ·ÃÎÊĞ¡´ûSql.txt removed successfully
+2018-01-10 16:00:46,932 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:00:51,274 DEBUG   : delete file : ABTest è®¿é—®å°è´·Sql.txt, timestamp is 1515571251267
+2018-01-10 16:00:51,275 DEBUG   : upload\ABTest è®¿é—®å°è´·Sql.txt removed successfully
 2018-01-10 16:01:23,458 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:01:23,458 DEBUG   : index page, method is GET
 2018-01-10 16:01:23,533 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:01:23,534 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:01:29,852 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:01:29,852 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:01:29,852 DEBUG   : upload path exist
-2018-01-10 16:01:29,856 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:01:31,091 DEBUG   : delete file : ABTest ·ÃÎÊĞ¡´ûSql.txt, timestamp is 1515571291087
-2018-01-10 16:01:31,092 DEBUG   : upload\ABTest ·ÃÎÊĞ¡´ûSql.txt removed successfully
+2018-01-10 16:01:29,856 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:01:31,091 DEBUG   : delete file : ABTest è®¿é—®å°è´·Sql.txt, timestamp is 1515571291087
+2018-01-10 16:01:31,092 DEBUG   : upload\ABTest è®¿é—®å°è´·Sql.txt removed successfully
 2018-01-10 16:05:32,699 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:05:32,699 DEBUG   : index page, method is GET
 2018-01-10 16:05:32,914 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:05:32,914 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:05:39,713 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:05:39,713 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:05:39,713 DEBUG   : upload path exist
-2018-01-10 16:05:39,718 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
+2018-01-10 16:05:39,718 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
 2018-01-10 16:14:55,230 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:14:55,230 DEBUG   : index page, method is GET
 2018-01-10 16:14:55,429 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:14:55,430 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:15:10,490 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 16:15:10,490 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 16:15:10,490 DEBUG   : upload path exist
-2018-01-10 16:15:10,497 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
+2018-01-10 16:15:10,497 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
 2018-01-10 16:15:34,948 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:15:34,949 DEBUG   : index page, method is GET
 2018-01-10 16:15:35,041 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:15:35,041 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:15:44,087 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 16:15:44,087 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 16:15:44,088 DEBUG   : upload path exist
-2018-01-10 16:15:44,091 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 16:15:46,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"gg","query_type":"gfsgds","credit_status":"gsdfgsdfg","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 16:15:44,091 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 16:15:46,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"gg","query_type":"gfsgds","credit_status":"gsdfgsdfg","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 16:32:40,766 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:32:40,766 DEBUG   : index page, method is GET
 2018-01-10 16:32:40,895 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:32:40,895 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:32:47,941 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:32:47,941 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:32:47,941 DEBUG   : upload path exist
-2018-01-10 16:32:47,949 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:32:50,259 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:32:47,949 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:32:50,259 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:32:53,071 DEBUG   : add monitor error type object 'FlaskMonitor' has no attribute 'insert'
 2018-01-10 16:33:54,351 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:33:54,351 DEBUG   : index page, method is GET
 2018-01-10 16:33:54,429 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:33:54,430 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:34:00,406 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:34:00,406 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:34:00,406 DEBUG   : upload path exist
-2018-01-10 16:34:00,410 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:34:01,982 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:34:00,410 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:34:01,982 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:34:03,906 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:35:38,166 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:35:38,166 DEBUG   : index page, method is GET
 2018-01-10 16:35:38,241 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:35:38,241 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:35:46,514 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:35:46,514 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:35:46,514 DEBUG   : upload path exist
-2018-01-10 16:35:46,517 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:35:47,392 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:35:47,392 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:35:46,517 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:35:47,392 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:35:47,392 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:35:49,246 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:39:45,782 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:39:45,782 DEBUG   : index page, method is GET
 2018-01-10 16:39:45,872 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:39:45,872 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:39:53,441 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:39:53,441 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:39:53,441 DEBUG   : upload path exist
-2018-01-10 16:39:53,445 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:39:54,674 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:39:54,674 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:39:53,445 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:39:54,674 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:39:54,674 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:39:56,726 DEBUG   : add monitor error (mysql.connector.errors.DatabaseError) 1364 (HY000): Field 'elapsed_time' doesn't have a default value [SQL: 'INSERT INTO t_credit_monitor (credit_type, query_type, credit_status) VALUES (%(credit_type)s, %(query_type)s, %(credit_status)s)'] [parameters: {'credit_type': '1', 'query_type': '1', 'credit_status': '1'}]
 2018-01-10 16:41:51,847 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:41:51,847 DEBUG   : index page, method is GET
 2018-01-10 16:41:51,924 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:41:51,924 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:41:57,995 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:41:57,995 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:41:57,996 DEBUG   : upload path exist
-2018-01-10 16:41:57,999 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:41:59,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:41:59,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:41:57,999 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:41:59,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:41:59,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:42:07,928 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:42:07,928 DEBUG   : index page, method is GET
 2018-01-10 16:42:08,130 DEBUG   : get_list: page = 1, limit = 5
@@ -521,159 +521,159 @@
 2018-01-10 16:44:59,608 DEBUG   : index page, method is GET
 2018-01-10 16:44:59,741 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:44:59,742 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:45:09,923 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:45:09,923 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:45:09,923 DEBUG   : upload path exist
-2018-01-10 16:45:09,927 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:45:11,121 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:45:11,121 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:45:09,927 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:45:11,121 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:45:11,121 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:45:12,987 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:46:16,054 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:46:16,054 DEBUG   : index page, method is GET
 2018-01-10 16:46:16,153 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:46:16,153 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:46:26,098 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 16:46:26,098 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 16:46:26,099 DEBUG   : upload path exist
-2018-01-10 16:46:26,111 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 16:46:27,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
-2018-01-10 16:46:27,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 16:46:26,111 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 16:46:27,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
+2018-01-10 16:46:27,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 16:46:29,153 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:47:20,832 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:47:20,832 DEBUG   : index page, method is GET
 2018-01-10 16:47:21,049 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:47:21,050 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:47:26,479 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:47:26,479 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:47:26,480 DEBUG   : upload path exist
-2018-01-10 16:47:26,483 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:47:27,978 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:47:27,979 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:47:26,483 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:47:27,978 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:47:27,979 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:47:29,912 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:47:57,705 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:47:57,706 DEBUG   : index page, method is GET
 2018-01-10 16:47:57,822 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:47:57,822 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:48:01,910 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:48:01,910 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:48:01,910 DEBUG   : upload path exist
-2018-01-10 16:48:01,914 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:48:04,346 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:48:04,346 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:48:01,914 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:48:04,346 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:48:04,346 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:48:06,236 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 16:49:23,669 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:49:23,669 DEBUG   : index page, method is GET
 2018-01-10 16:49:23,822 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:49:23,822 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:49:29,256 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 16:49:29,256 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 16:49:29,256 DEBUG   : upload path exist
-2018-01-10 16:49:29,259 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 16:49:30,417 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
-2018-01-10 16:49:30,417 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 16:49:29,259 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 16:49:30,417 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
+2018-01-10 16:49:30,417 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 16:49:32,263 DEBUG   : add monitor error 'credit_type'
 2018-01-10 16:51:38,534 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:51:38,534 DEBUG   : index page, method is GET
 2018-01-10 16:51:38,646 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:51:38,646 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:51:44,461 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 16:51:44,461 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 16:51:44,461 DEBUG   : upload path exist
-2018-01-10 16:51:44,474 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 16:51:48,219 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
-2018-01-10 16:51:48,219 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 16:51:44,474 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 16:51:48,219 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
+2018-01-10 16:51:48,219 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 16:51:49,992 DEBUG   : add monitor error 'credit_type'
 2018-01-10 16:57:22,483 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:57:22,483 DEBUG   : index page, method is GET
 2018-01-10 16:57:22,560 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:57:22,560 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:57:30,462 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:57:30,462 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:57:30,462 DEBUG   : upload path exist
-2018-01-10 16:57:30,467 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:57:32,169 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:57:32,170 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:57:30,467 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:57:32,169 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:57:32,170 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 16:59:13,476 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 16:59:13,476 DEBUG   : index page, method is GET
 2018-01-10 16:59:13,544 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 16:59:13,544 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 16:59:18,423 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 16:59:18,423 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 16:59:18,423 DEBUG   : upload path exist
-2018-01-10 16:59:18,426 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 16:59:19,270 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 16:59:19,270 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 16:59:18,426 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 16:59:19,270 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 16:59:19,270 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 17:00:37,159 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:00:37,159 DEBUG   : index page, method is GET
 2018-01-10 17:00:37,229 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:00:37,229 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:00:42,667 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 17:00:42,667 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 17:00:42,667 DEBUG   : upload path exist
-2018-01-10 17:00:42,670 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 17:00:45,792 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 17:00:42,670 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 17:00:45,792 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 17:00:45,792 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
 2018-01-10 17:04:54,886 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:04:54,887 DEBUG   : index page, method is GET
 2018-01-10 17:04:55,097 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:04:55,098 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:04:59,485 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 17:04:59,485 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 17:04:59,485 DEBUG   : upload path exist
-2018-01-10 17:04:59,488 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 17:05:01,105 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 17:04:59,488 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 17:05:01,105 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 17:05:01,105 DEBUG   : add monitor error 'ImmutableMultiDict' object has no attribute 'value'
 2018-01-10 17:06:49,850 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:06:49,850 DEBUG   : index page, method is GET
 2018-01-10 17:06:50,002 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:06:50,003 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:06:54,990 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 17:06:54,990 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 17:06:54,990 DEBUG   : upload path exist
-2018-01-10 17:06:54,994 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 17:06:56,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 17:06:56,317 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 17:06:54,994 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 17:06:56,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 17:06:56,317 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 17:07:47,403 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:07:47,404 DEBUG   : index page, method is GET
 2018-01-10 17:07:47,508 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:07:47,509 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:07:56,243 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 17:07:56,243 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 17:07:56,243 DEBUG   : upload path exist
-2018-01-10 17:07:56,260 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 17:07:58,478 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 17:07:56,260 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 17:07:58,478 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 17:15:55,445 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:15:55,445 DEBUG   : index page, method is GET
 2018-01-10 17:15:55,517 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:15:55,517 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:16:01,704 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 17:16:01,704 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 17:16:01,705 DEBUG   : upload path exist
-2018-01-10 17:16:01,708 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 17:16:02,632 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
-2018-01-10 17:16:02,632 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 17:16:01,708 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 17:16:02,632 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
+2018-01-10 17:16:02,632 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 17:16:04,479 DEBUG   : add monitor error 'method' object is not iterable
 2018-01-10 17:16:39,902 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:16:39,902 DEBUG   : index page, method is GET
 2018-01-10 17:16:39,979 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:16:39,980 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:16:45,554 DEBUG   : filename is ABTest½¨±íÓï¾ä.txt
+2018-01-10 17:16:45,554 DEBUG   : filename is ABTestå»ºè¡¨è¯­å¥.txt
 2018-01-10 17:16:45,554 DEBUG   : upload path exist
-2018-01-10 17:16:45,557 DEBUG   : ABTest½¨±íÓï¾ä.txt save successfully
-2018-01-10 17:16:46,834 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
-2018-01-10 17:16:46,834 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest½¨±íÓï¾ä.txt","file":""}', '')])
+2018-01-10 17:16:45,557 DEBUG   : ABTestå»ºè¡¨è¯­å¥.txt save successfully
+2018-01-10 17:16:46,834 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
+2018-01-10 17:16:46,834 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTestå»ºè¡¨è¯­å¥.txt","file":""}', '')])
 2018-01-10 17:16:48,622 DEBUG   : add monitor error 'method' object is not iterable
 2018-01-10 17:17:17,036 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:17:17,037 DEBUG   : index page, method is GET
 2018-01-10 17:17:17,127 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:17:17,127 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:17:21,641 DEBUG   : filename is ABTest ·ÃÎÊĞ¡´ûSql.txt
+2018-01-10 17:17:21,641 DEBUG   : filename is ABTest è®¿é—®å°è´·Sql.txt
 2018-01-10 17:17:21,641 DEBUG   : upload path exist
-2018-01-10 17:17:21,644 DEBUG   : ABTest ·ÃÎÊĞ¡´ûSql.txt save successfully
-2018-01-10 17:17:22,535 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
-2018-01-10 17:17:22,535 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest ·ÃÎÊĞ¡´ûSql.txt","file":""}', '')])
+2018-01-10 17:17:21,644 DEBUG   : ABTest è®¿é—®å°è´·Sql.txt save successfully
+2018-01-10 17:17:22,535 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
+2018-01-10 17:17:22,535 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest è®¿é—®å°è´·Sql.txt","file":""}', '')])
 2018-01-10 17:19:27,589 DEBUG   : user_loader user is test, is_authenticated True
 2018-01-10 17:19:27,590 DEBUG   : index page, method is GET
 2018-01-10 17:19:27,659 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 17:19:27,659 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 17:19:34,190 DEBUG   : filename is ABTestĞèÒª·ÃÎÊµÄ±í.txt
+2018-01-10 17:19:34,190 DEBUG   : filename is ABTestéœ€è¦è®¿é—®çš„è¡¨.txt
 2018-01-10 17:19:34,198 DEBUG   : upload path exist
-2018-01-10 17:19:34,200 DEBUG   : ABTestĞèÒª·ÃÎÊµÄ±í.txt save successfully
-2018-01-10 17:19:36,868 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTestĞèÒª·ÃÎÊµÄ±í.txt","file":""}', '')])
-2018-01-10 17:19:36,869 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTestĞèÒª·ÃÎÊµÄ±í.txt","file":""}', '')])
+2018-01-10 17:19:34,200 DEBUG   : ABTestéœ€è¦è®¿é—®çš„è¡¨.txt save successfully
+2018-01-10 17:19:36,868 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTestéœ€è¦è®¿é—®çš„è¡¨.txt","file":""}', '')])
+2018-01-10 17:19:36,869 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTestéœ€è¦è®¿é—®çš„è¡¨.txt","file":""}', '')])
 2018-01-10 17:19:38,690 DEBUG   : form data is 2
 2018-01-10 19:24:31,736 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
 2018-01-10 19:24:31,774 DEBUG   : Authorization is None
 2018-01-10 19:24:31,781 DEBUG   : login get method
 2018-01-10 19:24:33,789 DEBUG   : login post method
-2018-01-10 19:24:55,272 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+2018-01-10 19:24:55,272 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
 2018-01-10 19:25:19,146 DEBUG   : login get method
 2018-01-10 19:25:20,460 DEBUG   : login post method
 2018-01-10 19:25:20,461 DEBUG   : next is /
@@ -685,13 +685,13 @@
 2018-01-10 19:25:26,305 DEBUG   : index page, method is GET
 2018-01-10 19:25:26,456 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 19:25:26,456 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 19:25:47,759 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+2018-01-10 19:25:47,759 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
 2018-01-10 19:25:50,137 DEBUG   : filename is Python.txt
 2018-01-10 19:25:50,137 DEBUG   : upload path exist
 2018-01-10 19:25:50,144 DEBUG   : Python.txt save successfully
 2018-01-10 19:32:10,544 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
 2018-01-10 19:32:10,545 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
-2018-01-10 19:32:31,573 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+2018-01-10 19:32:31,573 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
 2018-01-10 19:32:31,573 DEBUG   : form data is {'credit_type': '3', 'query_type': '3', 'credit_status': '3', 'attach': 'Python.txt', 'file': ''}
 2018-01-10 19:32:31,573 DEBUG   : add monitor error 'NoneType' object has no attribute 'execute'
 2018-01-10 19:36:25,548 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
@@ -699,7 +699,7 @@
 2018-01-10 19:53:05,696 DEBUG   : index page, method is GET
 2018-01-10 19:53:05,816 DEBUG   : get_list: page = 1, limit = 5
 2018-01-10 19:53:05,816 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
-2018-01-10 19:53:26,926 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+2018-01-10 19:53:26,926 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
 2018-01-10 19:53:27,011 DEBUG   : filename is Python.txt
 2018-01-10 19:53:27,012 DEBUG   : upload path exist
 2018-01-10 19:53:27,019 DEBUG   : Python.txt save successfully
@@ -913,12 +913,20 @@
 2018-01-11 19:32:59,132 DEBUG   : index page, method is GET
 2018-01-11 19:32:59,246 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 19:32:59,246 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+<<<<<<< HEAD
 2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+=======
+2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
 2018-01-11 19:34:26,823 DEBUG   : user_loader user is admin, is_authenticated True
 2018-01-11 19:34:26,823 DEBUG   : index page, method is GET
 2018-01-11 19:34:27,019 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 19:34:27,019 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+<<<<<<< HEAD
 2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£)
+=======
+2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚)
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
 2018-01-11 19:34:48,451 DEBUG   : IMG20170422084710.jpg url is http://127.0.0.1:9000/files/IMG20170422084710.jpg
 2018-01-11 19:35:06,778 DEBUG   : IMG20170422084710_1.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_1.jpg
 2018-01-11 19:35:19,275 DEBUG   : IMG20170422084710_2.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_2.jpg
@@ -1075,3 +1083,7 @@
 2018-01-15 09:23:35,801 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/kd, request args is ImmutableMultiDict([])
 2018-01-15 09:23:35,801 DEBUG   : Authorization is None
 2018-01-15 09:23:40,485 DEBUG   : admin page is index
+<<<<<<< HEAD
+=======
+
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
