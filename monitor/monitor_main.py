@@ -1,19 +1,21 @@
 import functools
+import json
+import os
 import random
 import time
-import os
+
 import flask_login
-from flask import Flask, redirect, url_for, request, render_template, make_response, abort, jsonify
-from flask_login import LoginManager
-
-import json
-
+import monitor_api
+import monitor_db
 import monitor_logger
 import monitor_util
-import monitor_db
-
-# from werkzeug.utils import secure_filename
-from flask_uploads import UploadSet, IMAGES, configure_uploads
+from flask import Flask, redirect, url_for, request, render_template, make_response, abort, jsonify, \
+    send_from_directory
+from flask_login import LoginManager
+from flask_restful import Api
+from flask_uploads import UploadSet, configure_uploads
+from monitor_admin import admin
+from monitor_resource import monitor_resource
 
 app = Flask(__name__)
 login_manager = LoginManager()
@@ -23,13 +25,20 @@ login_manager.login_view = 'login'
 login_manager.session_protection = 'strong'
 logger = monitor_logger.get_logger(__name__)
 
-ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
-UPLOAD_PATH = 'upload'
+app.config['ALLOWED_EXTENSIONS'] = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
+app.config['UPLOAD_PATH'] = 'upload'
 
-app.config['UPLOADS_DEFAULT_DEST'] = UPLOAD_PATH
+app.config['UPLOADS_DEFAULT_DEST'] = app.config['UPLOAD_PATH']
 app.config['UPLOADS_DEFAULT_URL'] = 'http://127.0.0.1:9000/'
 uploaded_photos = UploadSet()
 configure_uploads(app, uploaded_photos)
+api = Api(app)
+api.add_resource(monitor_api.MonitorApi, '/api/<id>')
+
+app.register_blueprint(monitor_resource)
+
+app.register_blueprint(admin)
+app.register_blueprint(admin, url_prefix='/v1')
 
 
 # http://www.pythondoc.com/flask-login/index.html#request-loader
@@ -161,6 +170,13 @@ def api():
     return jsonify({'value': random.random(), 'timestamp': int(time.time())})
 
 
+# 文件下载
+@app.route('/download/<path:filename>')
+def send_html(filename):
+    logger.debug("download file, path is %s" % filename)
+    return send_from_directory(app.config['UPLOAD_PATH'], filename, as_attachment=True)
+
+
 @app.route('/api/list', methods=['GET'])
 def get_list():
     page = request.args.get('page')
@@ -213,7 +229,7 @@ def show_photo(filename):
             pass
         else:
             logger.debug('filename is %s' % filename)
-            image_data = open(os.path.join(UPLOAD_PATH, 'files/%s' % filename), "rb").read()
+            image_data = open(os.path.join(app.config['UPLOAD_PATH'], 'files/%s' % filename), "rb").read()
             response = make_response(image_data)
             response.headers['Content-Type'] = 'image/png'
             return response
@@ -242,14 +258,14 @@ def upload_file():
                     # filename = secure_filename(file.filename)
                     filename = origin_file_name
 
-                    if os.path.exists(UPLOAD_PATH):
-                        logger.debug('%s path exist' % UPLOAD_PATH)
+                    if os.path.exists(app.config['UPLOAD_PATH']):
+                        logger.debug('%s path exist' % app.config['UPLOAD_PATH'])
                         pass
                     else:
-                        logger.debug('%s path not exist, do make dir' % UPLOAD_PATH)
-                        os.makedirs(UPLOAD_PATH)
+                        logger.debug('%s path not exist, do make dir' % app.config['UPLOAD_PATH'])
+                        os.makedirs(app.config['PLOAD_PATH'])
 
-                    file.save(os.path.join(UPLOAD_PATH, filename))
+                    file.save(os.path.join(app.config['UPLOAD_PATH'], filename))
                     logger.debug('%s save successfully' % filename)
                     return jsonify({'code': 0, 'filename': origin_file_name, 'msg': ''})
                 else:
@@ -264,7 +280,7 @@ def upload_file():
 
 def allowed_file(filename):
     return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+           filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
 
 
 @app.route('/delete', methods=['GET'])
@@ -274,7 +290,7 @@ def delete_file():
         timestamp = request.args.get('timestamp')
         logger.debug('delete file : %s, timestamp is %s' % (filename, timestamp))
         try:
-            fullfile = os.path.join(UPLOAD_PATH, filename)
+            fullfile = os.path.join(app.config['UPLOAD_PATH'], filename)
 
             if os.path.exists(fullfile):
                 os.remove(fullfile)
@@ -307,6 +323,15 @@ def add_monitor():
             return jsonify({'code': -1, 'msg': 'Add monitor error'})
     else:
         return jsonify({'code': -1, 'msg': 'Method not allowed'})
+
+
+@app.route('/blueprint/<string:name>', methods=['GET'])
+def blueprint(name):
+    if name == 'r':
+        logger.debug('"style.css" url is "%s"' % url_for('monitor_resource.static', filename='css/style.css'))
+        return jsonify({'name': 'style.css', 'url': url_for('monitor_resource.static', filename='css/style.css')})
+    else:
+        pass
 
 
 app.secret_key = 'aHR0cDovL3d3dy53YW5kYS5jbi8='

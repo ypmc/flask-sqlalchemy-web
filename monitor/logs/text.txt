@@ -914,3 +914,164 @@
 2018-01-11 19:32:59,246 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 19:32:59,246 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
 2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-11 19:34:26,823 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:34:26,823 DEBUG   : index page, method is GET
+2018-01-11 19:34:27,019 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 19:34:27,019 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-11 19:34:48,451 DEBUG   : IMG20170422084710.jpg url is http://127.0.0.1:9000/files/IMG20170422084710.jpg
+2018-01-11 19:35:06,778 DEBUG   : IMG20170422084710_1.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_1.jpg
+2018-01-11 19:35:19,275 DEBUG   : IMG20170422084710_2.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_2.jpg
+2018-01-12 10:59:58,256 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-12 10:59:58,256 DEBUG   : Authorization is None
+2018-01-12 10:59:58,261 DEBUG   : login get method
+2018-01-12 11:00:00,232 DEBUG   : login post method
+2018-01-12 11:00:03,256 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-12 11:00:03,256 DEBUG   : next is /
+2018-01-12 11:00:03,352 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:00:03,353 DEBUG   : index page, method is GET
+2018-01-12 11:00:03,808 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:00:03,808 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:00:48,475 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:00:48,475 DEBUG   : index page, method is GET
+2018-01-12 11:00:48,623 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:00:48,623 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:00:53,643 DEBUG   : IMG20171224140804_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1.jpg
+2018-01-12 11:01:01,353 DEBUG   : filename is IMG20171224140804_1.jpg
+2018-01-12 11:01:15,680 DEBUG   : path is files/IMG20171224140804_1.jpg
+2018-01-12 11:03:22,470 DEBUG   : path is files/IMG20171224140804_1.jpg
+2018-01-12 11:17:01,616 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:17:01,616 DEBUG   : index page, method is GET
+2018-01-12 11:17:01,885 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:17:01,885 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:17:06,728 DEBUG   : IMG20171224140804_1_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_1.jpg
+2018-01-12 11:17:10,133 DEBUG   : filename is IMG20171224140804_1_1.jpg
+2018-01-12 11:17:12,346 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:17:12,346 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 14:45:30,667 DEBUG   : login post method
+2018-01-12 14:45:33,595 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-12 14:45:33,595 DEBUG   : next is None
+2018-01-12 14:45:33,697 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 14:45:33,698 DEBUG   : index page, method is GET
+2018-01-12 14:45:33,873 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 14:45:33,873 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 14:47:12,434 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 14:49:47,604 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 14:49:47,604 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 15:00:04,264 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 15:00:04,264 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 15:21:53,474 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 15:21:53,474 DEBUG   : index page, method is GET
+2018-01-12 15:21:53,585 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 15:21:53,585 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 15:51:31,360 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 15:51:31,361 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 16:01:32,162 DEBUG   : monitor view blueprint monitor_blueprint
+2018-01-12 16:01:32,162 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:01:32,164 DEBUG   : Exception is monitor_blueprint.html
+2018-01-12 16:01:32,190 DEBUG   : monitor view blueprint favicon.ico
+2018-01-12 16:01:32,190 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:01:32,190 DEBUG   : Exception is monitor_blueprint.html
+2018-01-12 16:04:11,688 DEBUG   : monitor view blueprint monitor_blueprint
+2018-01-12 16:04:11,688 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:20:37,673 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:26,408 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,318 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,541 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,734 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,918 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:35,110 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:54,770 DEBUG   : admin page is index
+2018-01-12 16:23:54,770 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:55,955 DEBUG   : admin page is index
+2018-01-12 16:23:55,956 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,209 DEBUG   : admin page is index
+2018-01-12 16:23:56,210 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,419 DEBUG   : admin page is index
+2018-01-12 16:23:56,419 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,612 DEBUG   : admin page is index
+2018-01-12 16:23:56,612 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:42,629 DEBUG   : admin page is index
+2018-01-12 16:26:42,629 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,383 DEBUG   : admin page is index
+2018-01-12 16:26:43,384 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,599 DEBUG   : admin page is index
+2018-01-12 16:26:43,599 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,783 DEBUG   : admin page is index
+2018-01-12 16:26:43,783 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,983 DEBUG   : admin page is index
+2018-01-12 16:26:43,984 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,183 DEBUG   : admin page is index
+2018-01-12 16:26:44,183 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,378 DEBUG   : admin page is index
+2018-01-12 16:26:44,378 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,639 DEBUG   : admin page is index
+2018-01-12 16:26:44,640 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:00,844 DEBUG   : admin page is index
+2018-01-12 16:27:00,844 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,134 DEBUG   : admin page is index
+2018-01-12 16:27:01,134 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,349 DEBUG   : admin page is index
+2018-01-12 16:27:01,350 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,550 DEBUG   : admin page is index
+2018-01-12 16:27:01,550 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:32:36,544 DEBUG   : admin page is index
+2018-01-12 16:32:36,544 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:32:47,616 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 16:52:55,065 DEBUG   : admin page is index
+2018-01-12 16:52:55,065 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:52:55,445 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:52:55,445 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:53:12,631 DEBUG   : admin page is index
+2018-01-12 16:53:12,631 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:53:12,738 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:53:12,738 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:53:54,988 DEBUG   : admin page is index
+2018-01-12 16:53:54,989 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:55:59,266 DEBUG   : admin page is index
+2018-01-12 16:55:59,266 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:55:59,484 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:55:59,485 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:56:22,134 DEBUG   : admin page is index
+2018-01-12 16:56:22,134 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-15 09:10:29,676 DEBUG   : admin page is index
+2018-01-15 09:10:29,677 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:10:29,678 DEBUG   : Authorization is None
+2018-01-15 09:10:35,328 DEBUG   : admin page is index
+2018-01-15 09:10:35,329 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:10:35,329 DEBUG   : Authorization is None
+2018-01-15 09:13:49,993 DEBUG   : admin page is index
+2018-01-15 09:13:49,994 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:13:49,994 DEBUG   : Authorization is None
+2018-01-15 09:13:58,625 DEBUG   : admin page is index
+2018-01-15 09:13:58,626 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:13:58,626 DEBUG   : Authorization is None
+2018-01-15 09:14:52,005 DEBUG   : admin page is index
+2018-01-15 09:14:52,006 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:14:52,006 DEBUG   : Authorization is None
+2018-01-15 09:15:16,817 DEBUG   : admin page is index
+2018-01-15 09:15:16,818 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:15:16,818 DEBUG   : Authorization is None
+2018-01-15 09:16:58,518 DEBUG   : admin page is index
+2018-01-15 09:16:58,519 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:16:58,519 DEBUG   : Authorization is None
+2018-01-15 09:17:08,020 DEBUG   : admin page is index
+2018-01-15 09:17:08,021 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:17:08,021 DEBUG   : Authorization is None
+2018-01-15 09:17:14,172 DEBUG   : admin page is index
+2018-01-15 09:17:14,173 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:17:14,173 DEBUG   : Authorization is None
+2018-01-15 09:20:15,472 DEBUG   : get method is 1
+2018-01-15 09:20:20,519 DEBUG   : admin page is index
+2018-01-15 09:20:20,520 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:20:20,520 DEBUG   : Authorization is None
+2018-01-15 09:21:49,997 DEBUG   : admin page is index
+2018-01-15 09:21:49,998 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:21:49,999 DEBUG   : Authorization is None
+2018-01-15 09:23:02,583 DEBUG   : admin page is kd
+2018-01-15 09:23:02,584 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/kd, request args is ImmutableMultiDict([])
+2018-01-15 09:23:02,584 DEBUG   : Authorization is None
+2018-01-15 09:23:35,800 DEBUG   : admin page is kd
+2018-01-15 09:23:35,801 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/kd, request args is ImmutableMultiDict([])
+2018-01-15 09:23:35,801 DEBUG   : Authorization is None
+2018-01-15 09:23:40,485 DEBUG   : admin page is index
