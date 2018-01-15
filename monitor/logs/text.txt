@@ -914,7 +914,11 @@
 2018-01-11 19:32:59,246 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 19:32:59,246 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�)
+=======
+2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
 =======
 2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
 >>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
@@ -923,7 +927,11 @@
 2018-01-11 19:34:27,019 DEBUG   : get_list: page = 1, limit = 5
 2018-01-11 19:34:27,019 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�)
+=======
+2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
 =======
 2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
 >>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
@@ -1084,6 +1092,10 @@
 2018-01-15 09:23:35,801 DEBUG   : Authorization is None
 2018-01-15 09:23:40,485 DEBUG   : admin page is index
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
 =======
 
 >>>>>>> 94589156f15f1c0f56ee7b196ca3cc9ae4509f96
