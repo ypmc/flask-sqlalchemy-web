@@ -1,1 +1,1078 @@
+2018-01-10 09:45:07,040 DEBUG   : test
+2018-01-10 09:53:57,562 DEBUG   : Exception is name 'User' is not defined
+2018-01-10 09:53:58,421 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000001C19B0F1D68>
+2018-01-10 09:57:40,075 DEBUG   : Exception is name 'User' is not defined
+2018-01-10 09:57:41,008 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000001D661CA1BA8>
+2018-01-10 09:58:51,143 DEBUG   : conn is <mysql.connector.connection.MySQLConnection object at 0x000002A9128E5208>
+2018-01-10 09:59:04,645 DEBUG   : test
+2018-01-10 10:00:01,277 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 2
+2018-01-10 10:00:39,938 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-10 10:00:39,955 DEBUG   : Authorization is None
+2018-01-10 10:00:40,013 DEBUG   : login get method
+2018-01-10 10:00:41,757 DEBUG   : login post method
+2018-01-10 10:00:44,655 DEBUG   : db user id is test, detail is <id is 2, username is test, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is yyyyyy@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-07-11 11:37:33>
+2018-01-10 10:00:44,655 DEBUG   : next is /
+2018-01-10 10:00:44,684 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:00:44,684 DEBUG   : index page, method is GET
+2018-01-10 10:00:45,186 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:01:15,890 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:01:15,890 DEBUG   : index page, method is GET
+2018-01-10 10:01:15,949 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:01:15,949 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 10:31:17,860 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:31:17,860 DEBUG   : index page, method is GET
+2018-01-10 10:31:18,662 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:31:18,663 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 10:31:22,376 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:31:22,376 DEBUG   : index page, method is GET
+2018-01-10 10:31:22,499 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:31:22,499 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 10:42:15,819 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:42:15,820 DEBUG   : index page, method is GET
+2018-01-10 10:42:15,954 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:42:15,954 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 10:42:18,405 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:42:18,405 DEBUG   : logout page
+2018-01-10 10:42:18,411 DEBUG   : login get method
+2018-01-10 10:42:18,411 DEBUG   : request_loader url is http://127.0.0.1:9000/login, request args is ImmutableMultiDict([])
+2018-01-10 10:42:18,411 DEBUG   : Authorization is None
+2018-01-10 10:42:21,995 DEBUG   : login post method
+2018-01-10 10:42:24,204 DEBUG   : db user id is test, detail is <id is 2, username is test, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is yyyyyy@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-07-11 11:37:33>
+2018-01-10 10:42:24,204 DEBUG   : next is None
+2018-01-10 10:42:24,260 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 10:42:24,260 DEBUG   : index page, method is GET
+2018-01-10 10:42:24,328 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 10:42:24,329 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 11:14:32,162 DEBUG   : get_list: page = 2, limit = 5
+2018-01-10 11:14:32,163 DEBUG   : get_monitor_flask_sqlalchemy: page is 2, limit is 5
+2018-01-10 11:37:02,567 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 11:37:02,567 DEBUG   : index page, method is GET
+2018-01-10 11:37:03,535 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 11:37:03,535 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 11:40:00,472 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 11:40:00,472 DEBUG   : index page, method is GET
+2018-01-10 11:40:00,697 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 11:40:00,697 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 11:47:30,520 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 11:47:30,520 DEBUG   : index page, method is GET
+2018-01-10 11:47:31,134 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 11:47:31,134 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 11:58:28,196 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 11:58:28,196 DEBUG   : index page, method is GET
+2018-01-10 11:58:28,340 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 11:58:28,340 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 12:04:47,349 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 12:04:47,349 DEBUG   : index page, method is GET
+2018-01-10 12:04:47,482 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 12:04:47,482 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:26:53,276 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:26:53,276 DEBUG   : index page, method is GET
+2018-01-10 13:26:53,482 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:26:53,482 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:45:33,424 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:45:33,425 DEBUG   : index page, method is GET
+2018-01-10 13:45:34,576 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:45:34,576 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:45:46,524 DEBUG   : upload exist
+2018-01-10 13:45:46,529 DEBUG   : ABTest_Sql.txtave successfully
+2018-01-10 13:47:53,443 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:47:53,443 DEBUG   : index page, method is GET
+2018-01-10 13:47:53,533 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:47:53,533 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:48:18,488 DEBUG   : upload exist
+2018-01-10 13:48:18,492 DEBUG   : ABTest.txtave successfully
+2018-01-10 13:48:28,011 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:48:28,011 DEBUG   : index page, method is GET
+2018-01-10 13:48:28,095 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:48:28,096 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:55:36,076 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:55:36,076 DEBUG   : index page, method is GET
+2018-01-10 13:55:36,788 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:55:36,788 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:55:46,824 DEBUG   : upload exist
+2018-01-10 13:55:46,827 DEBUG   : ABTest_Sql.txtave successfully
+2018-01-10 13:56:27,893 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:56:27,893 DEBUG   : index page, method is GET
+2018-01-10 13:56:28,057 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:56:28,057 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:57:44,216 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 13:57:44,216 DEBUG   : index page, method is GET
+2018-01-10 13:57:44,280 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 13:57:44,280 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 13:59:08,836 DEBUG   : upload exist
+2018-01-10 13:59:08,840 DEBUG   : ABTest_Sql.txtave successfully
+2018-01-10 14:00:54,516 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:00:54,516 DEBUG   : index page, method is GET
+2018-01-10 14:00:54,587 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:00:54,587 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:01:01,375 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:01:01,385 DEBUG   : upload path exist
+2018-01-10 14:01:01,388 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:03:56,719 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:03:56,719 DEBUG   : index page, method is GET
+2018-01-10 14:03:56,786 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:03:56,786 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:04:05,366 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 14:04:05,381 DEBUG   : upload path exist
+2018-01-10 14:04:05,389 DEBUG   : ABTest.txt save successfully
+2018-01-10 14:16:19,150 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:16:19,151 DEBUG   : index page, method is GET
+2018-01-10 14:16:19,248 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:16:19,248 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:18:12,953 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:18:12,953 DEBUG   : index page, method is GET
+2018-01-10 14:18:13,101 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:18:13,102 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:21:49,763 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:21:49,763 DEBUG   : index page, method is GET
+2018-01-10 14:21:49,887 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:21:49,888 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:21:54,393 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:21:54,393 DEBUG   : upload path exist
+2018-01-10 14:21:54,397 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:23:55,907 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:23:55,907 DEBUG   : index page, method is GET
+2018-01-10 14:23:56,070 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:23:56,070 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:24:00,196 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:24:00,197 DEBUG   : upload path exist
+2018-01-10 14:24:00,199 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:25:03,550 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:25:03,551 DEBUG   : index page, method is GET
+2018-01-10 14:25:03,685 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:25:03,685 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:25:49,869 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:25:49,869 DEBUG   : index page, method is GET
+2018-01-10 14:25:49,981 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:25:49,981 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:26:24,322 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:26:24,323 DEBUG   : index page, method is GET
+2018-01-10 14:26:24,455 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:26:24,456 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:27:47,028 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:27:47,028 DEBUG   : index page, method is GET
+2018-01-10 14:27:47,186 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:27:47,186 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:29:08,828 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:29:08,829 DEBUG   : index page, method is GET
+2018-01-10 14:29:08,958 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:29:08,958 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:30:27,419 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:30:27,420 DEBUG   : index page, method is GET
+2018-01-10 14:30:30,291 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:30:30,292 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:30:39,111 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:30:39,111 DEBUG   : upload path exist
+2018-01-10 14:30:39,114 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:31:41,961 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:31:41,962 DEBUG   : index page, method is GET
+2018-01-10 14:31:42,115 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:31:42,116 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:31:51,020 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:31:51,020 DEBUG   : upload path exist
+2018-01-10 14:31:51,023 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:32:31,409 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:32:31,410 DEBUG   : index page, method is GET
+2018-01-10 14:32:33,746 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:32:33,746 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:32:40,194 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:32:40,194 DEBUG   : upload path exist
+2018-01-10 14:32:40,197 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:34:04,968 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:34:04,969 DEBUG   : index page, method is GET
+2018-01-10 14:34:06,860 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:34:06,860 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:34:10,201 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:34:10,201 DEBUG   : upload path exist
+2018-01-10 14:34:10,205 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:35:08,774 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:35:08,774 DEBUG   : index page, method is GET
+2018-01-10 14:35:43,300 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:35:43,300 DEBUG   : index page, method is GET
+2018-01-10 14:35:43,509 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:35:43,509 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:40:04,381 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:40:04,381 DEBUG   : index page, method is GET
+2018-01-10 14:40:04,618 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:40:04,619 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:40:23,061 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-10 14:40:23,061 DEBUG   : Authorization is None
+2018-01-10 14:40:23,076 DEBUG   : login get method
+2018-01-10 14:40:29,386 DEBUG   : login post method
+2018-01-10 14:40:31,635 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-10 14:40:31,636 DEBUG   : next is /
+2018-01-10 14:40:31,661 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-10 14:40:31,661 DEBUG   : index page, method is GET
+2018-01-10 14:40:32,002 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:40:32,002 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:41:03,104 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:41:03,105 DEBUG   : index page, method is GET
+2018-01-10 14:41:03,286 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:41:03,286 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:41:27,829 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:41:27,829 DEBUG   : index page, method is GET
+2018-01-10 14:41:27,984 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:41:27,985 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:42:36,192 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:42:36,193 DEBUG   : index page, method is GET
+2018-01-10 14:42:36,331 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:42:36,331 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:46:34,095 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:46:34,095 DEBUG   : index page, method is GET
+2018-01-10 14:46:34,278 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:46:34,279 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:50:20,653 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:50:20,654 DEBUG   : index page, method is GET
+2018-01-10 14:50:20,775 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:50:20,776 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:51:49,854 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:51:49,855 DEBUG   : index page, method is GET
+2018-01-10 14:51:49,923 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:51:49,923 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:55:42,361 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:55:42,361 DEBUG   : index page, method is GET
+2018-01-10 14:55:42,422 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:55:42,423 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:55:49,660 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:55:49,661 DEBUG   : upload path exist
+2018-01-10 14:55:49,664 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:56:13,543 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:56:13,543 DEBUG   : index page, method is GET
+2018-01-10 14:56:13,679 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:56:13,679 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:56:17,917 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:56:17,917 DEBUG   : upload path exist
+2018-01-10 14:56:17,921 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:56:55,717 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:56:55,717 DEBUG   : index page, method is GET
+2018-01-10 14:56:55,808 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:56:55,809 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:56:59,576 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:56:59,576 DEBUG   : upload path exist
+2018-01-10 14:56:59,580 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:58:27,044 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:58:27,044 DEBUG   : index page, method is GET
+2018-01-10 14:58:27,196 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:58:27,196 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:58:31,912 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 14:58:31,912 DEBUG   : upload path exist
+2018-01-10 14:58:31,925 DEBUG   : ABTest.txt save successfully
+2018-01-10 14:59:03,466 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:59:03,466 DEBUG   : index page, method is GET
+2018-01-10 14:59:03,590 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:59:03,590 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:59:07,926 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:59:07,926 DEBUG   : upload path exist
+2018-01-10 14:59:07,930 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 14:59:26,319 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 14:59:26,319 DEBUG   : index page, method is GET
+2018-01-10 14:59:26,452 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 14:59:26,452 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 14:59:32,051 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 14:59:32,051 DEBUG   : upload path exist
+2018-01-10 14:59:32,058 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:00:50,162 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:00:50,162 DEBUG   : index page, method is GET
+2018-01-10 15:00:50,292 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:00:50,293 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:00:53,826 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:00:53,827 DEBUG   : upload path exist
+2018-01-10 15:00:53,831 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:01:37,196 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:01:37,196 DEBUG   : index page, method is GET
+2018-01-10 15:01:37,403 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:01:37,403 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:01:41,159 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:01:41,159 DEBUG   : index page, method is GET
+2018-01-10 15:01:41,281 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:01:41,281 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:01:45,492 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:01:45,492 DEBUG   : upload path exist
+2018-01-10 15:01:45,495 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:04:33,571 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:04:33,571 DEBUG   : index page, method is GET
+2018-01-10 15:04:33,776 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:04:33,776 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:04:39,232 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:04:39,232 DEBUG   : upload path exist
+2018-01-10 15:04:39,236 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:16:06,183 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:16:06,183 DEBUG   : index page, method is GET
+2018-01-10 15:16:06,316 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:16:06,316 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:16:13,832 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:16:13,833 DEBUG   : upload path exist
+2018-01-10 15:16:13,836 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:16:59,051 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:16:59,051 DEBUG   : index page, method is GET
+2018-01-10 15:16:59,216 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:16:59,217 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:17:02,837 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:17:02,837 DEBUG   : upload path exist
+2018-01-10 15:17:02,841 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:17:38,521 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:17:38,521 DEBUG   : index page, method is GET
+2018-01-10 15:17:40,331 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:17:40,331 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:17:46,092 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:17:46,092 DEBUG   : upload path exist
+2018-01-10 15:17:46,095 DEBUG   : ABTest_Sql.txt save successfully
+2018-01-10 15:17:48,694 DEBUG   : delete file : ABTest 访问小贷Sql.txt, timestamp is 1515568668689
+2018-01-10 15:19:45,015 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:19:45,015 DEBUG   : index page, method is GET
+2018-01-10 15:19:45,182 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:19:45,182 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:19:54,640 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 15:19:54,640 DEBUG   : upload path exist
+2018-01-10 15:19:54,649 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 15:20:00,147 DEBUG   : delete file : ABTest建表语句.txt, timestamp is 1515568800137
+2018-01-10 15:26:34,095 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:26:34,096 DEBUG   : index page, method is GET
+2018-01-10 15:26:34,303 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:26:34,303 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:26:42,199 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:26:42,199 DEBUG   : upload path exist
+2018-01-10 15:26:42,203 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:26:46,890 DEBUG   : delete file : ABTest 访问小贷Sql.txt, timestamp is 1515569206885
+2018-01-10 15:26:46,892 DEBUG   : upload\ABTest 访问小贷Sql.txt removed successfully
+2018-01-10 15:27:06,626 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 15:27:06,627 DEBUG   : upload path exist
+2018-01-10 15:27:06,630 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 15:27:08,652 DEBUG   : delete file : ABTest建表语句.txt, timestamp is 1515569228639
+2018-01-10 15:27:08,653 DEBUG   : upload\ABTest建表语句.txt removed successfully
+2018-01-10 15:30:09,355 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:30:09,356 DEBUG   : index page, method is GET
+2018-01-10 15:30:09,996 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:30:09,996 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:30:15,728 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:30:15,728 DEBUG   : upload path exist
+2018-01-10 15:30:15,733 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:32:10,865 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:32:10,866 DEBUG   : index page, method is GET
+2018-01-10 15:32:11,064 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:32:11,064 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:32:16,520 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:32:16,520 DEBUG   : upload path exist
+2018-01-10 15:32:16,523 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:32:18,005 DEBUG   : delete file : ABTest 访问小贷Sql.txt, timestamp is 1515569537999
+2018-01-10 15:32:18,006 DEBUG   : upload\ABTest 访问小贷Sql.txt removed successfully
+2018-01-10 15:41:33,953 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:41:33,954 DEBUG   : index page, method is GET
+2018-01-10 15:41:34,093 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:41:34,093 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:42:49,903 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:42:49,904 DEBUG   : index page, method is GET
+2018-01-10 15:42:50,027 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:42:50,027 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:47:50,015 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:47:50,015 DEBUG   : index page, method is GET
+2018-01-10 15:47:50,198 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:47:50,199 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:47:56,150 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:47:56,151 DEBUG   : upload path exist
+2018-01-10 15:47:56,158 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:48:27,012 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:48:27,012 DEBUG   : index page, method is GET
+2018-01-10 15:48:27,157 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:48:27,158 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:48:32,631 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:48:32,631 DEBUG   : upload path exist
+2018-01-10 15:48:32,634 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:49:00,571 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:49:00,571 DEBUG   : index page, method is GET
+2018-01-10 15:49:00,681 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:49:00,681 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:49:04,347 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:49:04,348 DEBUG   : upload path exist
+2018-01-10 15:49:04,351 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:49:13,802 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:49:13,803 DEBUG   : index page, method is GET
+2018-01-10 15:49:13,956 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:49:13,957 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:49:17,402 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:49:17,403 DEBUG   : upload path exist
+2018-01-10 15:49:17,406 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:52:08,311 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:52:08,311 DEBUG   : index page, method is GET
+2018-01-10 15:52:08,590 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:52:08,590 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:54:41,653 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:54:41,653 DEBUG   : index page, method is GET
+2018-01-10 15:54:41,843 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:54:41,843 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:55:15,486 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:55:15,487 DEBUG   : index page, method is GET
+2018-01-10 15:55:15,676 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:55:15,676 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:56:25,132 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 15:56:25,132 DEBUG   : index page, method is GET
+2018-01-10 15:56:25,255 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 15:56:25,255 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 15:56:38,071 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 15:56:38,071 DEBUG   : upload path exist
+2018-01-10 15:56:38,075 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 15:56:46,509 DEBUG   : delete file : undefined, timestamp is 1515571006503
+2018-01-10 16:00:40,159 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:00:40,159 DEBUG   : index page, method is GET
+2018-01-10 16:00:40,296 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:00:40,297 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:00:46,929 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:00:46,929 DEBUG   : upload path exist
+2018-01-10 16:00:46,932 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:00:51,274 DEBUG   : delete file : ABTest 访问小贷Sql.txt, timestamp is 1515571251267
+2018-01-10 16:00:51,275 DEBUG   : upload\ABTest 访问小贷Sql.txt removed successfully
+2018-01-10 16:01:23,458 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:01:23,458 DEBUG   : index page, method is GET
+2018-01-10 16:01:23,533 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:01:23,534 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:01:29,852 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:01:29,852 DEBUG   : upload path exist
+2018-01-10 16:01:29,856 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:01:31,091 DEBUG   : delete file : ABTest 访问小贷Sql.txt, timestamp is 1515571291087
+2018-01-10 16:01:31,092 DEBUG   : upload\ABTest 访问小贷Sql.txt removed successfully
+2018-01-10 16:05:32,699 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:05:32,699 DEBUG   : index page, method is GET
+2018-01-10 16:05:32,914 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:05:32,914 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:05:39,713 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:05:39,713 DEBUG   : upload path exist
+2018-01-10 16:05:39,718 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:14:55,230 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:14:55,230 DEBUG   : index page, method is GET
+2018-01-10 16:14:55,429 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:14:55,430 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:15:10,490 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 16:15:10,490 DEBUG   : upload path exist
+2018-01-10 16:15:10,497 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 16:15:34,948 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:15:34,949 DEBUG   : index page, method is GET
+2018-01-10 16:15:35,041 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:15:35,041 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:15:44,087 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 16:15:44,088 DEBUG   : upload path exist
+2018-01-10 16:15:44,091 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 16:15:46,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"gg","query_type":"gfsgds","credit_status":"gsdfgsdfg","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:32:40,766 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:32:40,766 DEBUG   : index page, method is GET
+2018-01-10 16:32:40,895 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:32:40,895 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:32:47,941 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:32:47,941 DEBUG   : upload path exist
+2018-01-10 16:32:47,949 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:32:50,259 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:32:53,071 DEBUG   : add monitor error type object 'FlaskMonitor' has no attribute 'insert'
+2018-01-10 16:33:54,351 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:33:54,351 DEBUG   : index page, method is GET
+2018-01-10 16:33:54,429 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:33:54,430 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:34:00,406 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:34:00,406 DEBUG   : upload path exist
+2018-01-10 16:34:00,410 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:34:01,982 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:34:03,906 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:35:38,166 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:35:38,166 DEBUG   : index page, method is GET
+2018-01-10 16:35:38,241 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:35:38,241 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:35:46,514 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:35:46,514 DEBUG   : upload path exist
+2018-01-10 16:35:46,517 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:35:47,392 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:35:47,392 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:35:49,246 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:39:45,782 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:39:45,782 DEBUG   : index page, method is GET
+2018-01-10 16:39:45,872 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:39:45,872 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:39:53,441 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:39:53,441 DEBUG   : upload path exist
+2018-01-10 16:39:53,445 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:39:54,674 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:39:54,674 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"22","query_type":"2","credit_status":"2","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:39:56,726 DEBUG   : add monitor error (mysql.connector.errors.DatabaseError) 1364 (HY000): Field 'elapsed_time' doesn't have a default value [SQL: 'INSERT INTO t_credit_monitor (credit_type, query_type, credit_status) VALUES (%(credit_type)s, %(query_type)s, %(credit_status)s)'] [parameters: {'credit_type': '1', 'query_type': '1', 'credit_status': '1'}]
+2018-01-10 16:41:51,847 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:41:51,847 DEBUG   : index page, method is GET
+2018-01-10 16:41:51,924 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:41:51,924 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:41:57,995 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:41:57,996 DEBUG   : upload path exist
+2018-01-10 16:41:57,999 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:41:59,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:41:59,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:42:07,928 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:42:07,928 DEBUG   : index page, method is GET
+2018-01-10 16:42:08,130 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:42:08,131 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:42:10,261 DEBUG   : get_list: page = 2, limit = 5
+2018-01-10 16:42:10,262 DEBUG   : get_monitor_flask_sqlalchemy: page is 2, limit is 5
+2018-01-10 16:42:12,962 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:42:12,962 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:42:15,079 DEBUG   : get_list: page = 2, limit = 5
+2018-01-10 16:42:15,079 DEBUG   : get_monitor_flask_sqlalchemy: page is 2, limit is 5
+2018-01-10 16:43:20,008 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:43:20,008 DEBUG   : index page, method is GET
+2018-01-10 16:43:20,161 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:43:20,161 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:43:23,276 DEBUG   : get_list: page = 2, limit = 5
+2018-01-10 16:43:23,276 DEBUG   : get_monitor_flask_sqlalchemy: page is 2, limit is 5
+2018-01-10 16:43:27,521 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:43:27,521 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:44:59,607 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:44:59,608 DEBUG   : index page, method is GET
+2018-01-10 16:44:59,741 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:44:59,742 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:45:09,923 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:45:09,923 DEBUG   : upload path exist
+2018-01-10 16:45:09,927 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:45:11,121 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:45:11,121 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"dsd","query_type":"2ds","credit_status":"1ds","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:45:12,987 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:46:16,054 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:46:16,054 DEBUG   : index page, method is GET
+2018-01-10 16:46:16,153 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:46:16,153 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:46:26,098 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 16:46:26,099 DEBUG   : upload path exist
+2018-01-10 16:46:26,111 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 16:46:27,380 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:46:27,380 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"r","query_type":"1","credit_status":"w","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:46:29,153 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:47:20,832 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:47:20,832 DEBUG   : index page, method is GET
+2018-01-10 16:47:21,049 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:47:21,050 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:47:26,479 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:47:26,480 DEBUG   : upload path exist
+2018-01-10 16:47:26,483 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:47:27,978 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:47:27,979 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"s","query_type":"sd","credit_status":"ds","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:47:29,912 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:47:57,705 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:47:57,706 DEBUG   : index page, method is GET
+2018-01-10 16:47:57,822 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:47:57,822 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:48:01,910 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:48:01,910 DEBUG   : upload path exist
+2018-01-10 16:48:01,914 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:48:04,346 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:48:04,346 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:48:06,236 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 16:49:23,669 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:49:23,669 DEBUG   : index page, method is GET
+2018-01-10 16:49:23,822 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:49:23,822 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:49:29,256 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 16:49:29,256 DEBUG   : upload path exist
+2018-01-10 16:49:29,259 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 16:49:30,417 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:49:30,417 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:49:32,263 DEBUG   : add monitor error 'credit_type'
+2018-01-10 16:51:38,534 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:51:38,534 DEBUG   : index page, method is GET
+2018-01-10 16:51:38,646 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:51:38,646 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:51:44,461 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 16:51:44,461 DEBUG   : upload path exist
+2018-01-10 16:51:44,474 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 16:51:48,219 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:51:48,219 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 16:51:49,992 DEBUG   : add monitor error 'credit_type'
+2018-01-10 16:57:22,483 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:57:22,483 DEBUG   : index page, method is GET
+2018-01-10 16:57:22,560 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:57:22,560 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:57:30,462 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:57:30,462 DEBUG   : upload path exist
+2018-01-10 16:57:30,467 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:57:32,169 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:57:32,170 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:59:13,476 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 16:59:13,476 DEBUG   : index page, method is GET
+2018-01-10 16:59:13,544 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 16:59:13,544 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 16:59:18,423 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 16:59:18,423 DEBUG   : upload path exist
+2018-01-10 16:59:18,426 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 16:59:19,270 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 16:59:19,270 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:00:37,159 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:00:37,159 DEBUG   : index page, method is GET
+2018-01-10 17:00:37,229 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:00:37,229 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:00:42,667 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 17:00:42,667 DEBUG   : upload path exist
+2018-01-10 17:00:42,670 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 17:00:45,792 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:00:45,792 DEBUG   : add monitor error 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-10 17:04:54,886 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:04:54,887 DEBUG   : index page, method is GET
+2018-01-10 17:04:55,097 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:04:55,098 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:04:59,485 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 17:04:59,485 DEBUG   : upload path exist
+2018-01-10 17:04:59,488 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 17:05:01,105 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:05:01,105 DEBUG   : add monitor error 'ImmutableMultiDict' object has no attribute 'value'
+2018-01-10 17:06:49,850 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:06:49,850 DEBUG   : index page, method is GET
+2018-01-10 17:06:50,002 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:06:50,003 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:06:54,990 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 17:06:54,990 DEBUG   : upload path exist
+2018-01-10 17:06:54,994 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 17:06:56,317 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:06:56,317 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:07:47,403 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:07:47,404 DEBUG   : index page, method is GET
+2018-01-10 17:07:47,508 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:07:47,509 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:07:56,243 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 17:07:56,243 DEBUG   : upload path exist
+2018-01-10 17:07:56,260 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 17:07:58,478 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:15:55,445 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:15:55,445 DEBUG   : index page, method is GET
+2018-01-10 17:15:55,517 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:15:55,517 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:16:01,704 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 17:16:01,705 DEBUG   : upload path exist
+2018-01-10 17:16:01,708 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 17:16:02,632 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:16:02,632 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:16:04,479 DEBUG   : add monitor error 'method' object is not iterable
+2018-01-10 17:16:39,902 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:16:39,902 DEBUG   : index page, method is GET
+2018-01-10 17:16:39,979 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:16:39,980 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:16:45,554 DEBUG   : filename is ABTest建表语句.txt
+2018-01-10 17:16:45,554 DEBUG   : upload path exist
+2018-01-10 17:16:45,557 DEBUG   : ABTest建表语句.txt save successfully
+2018-01-10 17:16:46,834 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:16:46,834 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest建表语句.txt","file":""}', '')])
+2018-01-10 17:16:48,622 DEBUG   : add monitor error 'method' object is not iterable
+2018-01-10 17:17:17,036 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:17:17,037 DEBUG   : index page, method is GET
+2018-01-10 17:17:17,127 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:17:17,127 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:17:21,641 DEBUG   : filename is ABTest 访问小贷Sql.txt
+2018-01-10 17:17:21,641 DEBUG   : upload path exist
+2018-01-10 17:17:21,644 DEBUG   : ABTest 访问小贷Sql.txt save successfully
+2018-01-10 17:17:22,535 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:17:22,535 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"1","query_type":"1","credit_status":"1","attach":"ABTest 访问小贷Sql.txt","file":""}', '')])
+2018-01-10 17:19:27,589 DEBUG   : user_loader user is test, is_authenticated True
+2018-01-10 17:19:27,590 DEBUG   : index page, method is GET
+2018-01-10 17:19:27,659 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 17:19:27,659 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 17:19:34,190 DEBUG   : filename is ABTest需要访问的表.txt
+2018-01-10 17:19:34,198 DEBUG   : upload path exist
+2018-01-10 17:19:34,200 DEBUG   : ABTest需要访问的表.txt save successfully
+2018-01-10 17:19:36,868 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
+2018-01-10 17:19:36,869 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"2","query_type":"2","credit_status":"2","attach":"ABTest需要访问的表.txt","file":""}', '')])
+2018-01-10 17:19:38,690 DEBUG   : form data is 2
+2018-01-10 19:24:31,736 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-10 19:24:31,774 DEBUG   : Authorization is None
+2018-01-10 19:24:31,781 DEBUG   : login get method
+2018-01-10 19:24:33,789 DEBUG   : login post method
+2018-01-10 19:24:55,272 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:25:19,146 DEBUG   : login get method
+2018-01-10 19:25:20,460 DEBUG   : login post method
+2018-01-10 19:25:20,461 DEBUG   : next is /
+2018-01-10 19:25:20,461 DEBUG   : error occurred: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested.  You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2018-01-10 19:25:21,509 DEBUG   : login get method
+2018-01-10 19:25:26,251 DEBUG   : login post method
+2018-01-10 19:25:26,252 DEBUG   : next is None
+2018-01-10 19:25:26,305 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-10 19:25:26,305 DEBUG   : index page, method is GET
+2018-01-10 19:25:26,456 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 19:25:26,456 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 19:25:47,759 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:25:50,137 DEBUG   : filename is Python.txt
+2018-01-10 19:25:50,137 DEBUG   : upload path exist
+2018-01-10 19:25:50,144 DEBUG   : Python.txt save successfully
+2018-01-10 19:32:10,544 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:32:10,545 DEBUG   : add monitor is ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:32:31,573 DEBUG   : Exception is (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:32:31,573 DEBUG   : form data is {'credit_type': '3', 'query_type': '3', 'credit_status': '3', 'attach': 'Python.txt', 'file': ''}
+2018-01-10 19:32:31,573 DEBUG   : add monitor error 'NoneType' object has no attribute 'execute'
+2018-01-10 19:36:25,548 DEBUG   : form data is : ImmutableMultiDict([('{"credit_type":"3","query_type":"3","credit_status":"3","attach":"Python.txt","file":""}', '')])
+2018-01-10 19:53:05,696 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-10 19:53:05,696 DEBUG   : index page, method is GET
+2018-01-10 19:53:05,816 DEBUG   : get_list: page = 1, limit = 5
+2018-01-10 19:53:05,816 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-10 19:53:26,926 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-10 19:53:27,011 DEBUG   : filename is Python.txt
+2018-01-10 19:53:27,012 DEBUG   : upload path exist
+2018-01-10 19:53:27,019 DEBUG   : Python.txt save successfully
+2018-01-10 19:53:36,803 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:49:22,149 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 08:49:22,167 DEBUG   : Authorization is None
+2018-01-11 08:49:22,173 DEBUG   : login get method
+2018-01-11 08:49:24,170 DEBUG   : login post method
+2018-01-11 08:49:24,171 DEBUG   : next is /
+2018-01-11 08:49:24,236 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:49:24,236 DEBUG   : index page, method is GET
+2018-01-11 08:49:24,665 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:49:24,665 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:50:09,449 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:50:09,449 DEBUG   : index page, method is GET
+2018-01-11 08:50:09,537 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:50:09,537 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:50:24,309 DEBUG   : filename is lock.txt
+2018-01-11 08:50:24,309 DEBUG   : upload path exist
+2018-01-11 08:50:24,333 DEBUG   : lock.txt save successfully
+2018-01-11 08:50:26,235 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:50:26,235 DEBUG   : add monitor is b'{"credit_type":"4","query_type":"4","credit_status":"4","attach":"lock.txt","file":""}'
+2018-01-11 08:50:28,081 DEBUG   : add monitor error byte indices must be integers or slices, not str
+2018-01-11 08:51:41,392 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:51:41,392 DEBUG   : index page, method is GET
+2018-01-11 08:51:41,461 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:51:41,461 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:52:24,812 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 08:52:24,812 DEBUG   : index page, method is GET
+2018-01-11 08:52:24,879 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 08:52:24,879 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 08:52:37,207 DEBUG   : filename is Python.txt
+2018-01-11 08:52:37,208 DEBUG   : upload path exist
+2018-01-11 08:52:37,216 DEBUG   : Python.txt save successfully
+2018-01-11 08:52:40,494 DEBUG   : form data is : ImmutableMultiDict([])
+2018-01-11 08:52:40,494 DEBUG   : add monitor is b'{"credit_type":"4","query_type":"4","credit_status":"4","attach":"Python.txt","file":""}'
+2018-01-11 15:13:35,310 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 15:13:35,311 DEBUG   : Authorization is None
+2018-01-11 15:13:35,331 DEBUG   : login get method
+2018-01-11 15:13:37,062 DEBUG   : login post method
+2018-01-11 15:13:40,466 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-11 15:13:40,466 DEBUG   : next is /
+2018-01-11 15:13:40,478 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:13:40,478 DEBUG   : index page, method is GET
+2018-01-11 15:13:40,759 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:13:40,759 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:15:05,622 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:16:21,142 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:18:06,990 DEBUG   : upload file exception: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2018-01-11 15:20:13,895 DEBUG   : upload file exception: 'method' object is not subscriptable
+2018-01-11 15:28:11,645 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 15:39:35,299 DEBUG   : 2018-01-11_151455_2.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455_2.jpg
+2018-01-11 15:41:03,126 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455.jpg
+2018-01-11 15:41:35,692 DEBUG   : delete file : 2018-01-11_151455.jpg, timestamp is 1515656495661
+2018-01-11 15:41:41,495 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/_uploads/files/2018-01-11_151455.jpg
+2018-01-11 15:43:08,288 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:43:08,289 DEBUG   : index page, method is GET
+2018-01-11 15:43:08,404 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:43:08,404 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:43:11,716 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 15:47:47,879 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:47:47,880 DEBUG   : index page, method is GET
+2018-01-11 15:47:47,985 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 15:47:47,985 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 15:47:58,928 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:49:30,645 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:49:30,646 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 15:57:01,428 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 15:59:36,203 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:00:13,014 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:17:39,879 DEBUG   : filename is 2018-01-11_151455.jpg
+2018-01-11 16:31:03,069 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:31:03,069 DEBUG   : index page, method is GET
+2018-01-11 16:31:03,457 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:31:03,457 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:31:13,647 DEBUG   : 2018-01-11_151455_1.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_1.jpg
+2018-01-11 16:34:38,887 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:34:38,888 DEBUG   : index page, method is GET
+2018-01-11 16:34:39,582 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:34:39,583 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:34:52,256 DEBUG   : 2018-01-11_151455_2.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_2.jpg
+2018-01-11 16:34:57,138 DEBUG   : filename is 2018-01-11_151455_2.jpg
+2018-01-11 16:35:54,524 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:35:54,524 DEBUG   : index page, method is GET
+2018-01-11 16:35:54,585 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:35:54,585 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:00,780 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:00,781 DEBUG   : index page, method is GET
+2018-01-11 16:37:00,856 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:00,857 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:20,690 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:20,690 DEBUG   : index page, method is GET
+2018-01-11 16:37:20,871 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:20,872 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:41,929 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:37:41,930 DEBUG   : index page, method is GET
+2018-01-11 16:37:42,107 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:37:42,107 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:37:47,420 DEBUG   : 2018-01-11_151455_3.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_3.jpg
+2018-01-11 16:38:21,734 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:38:21,734 DEBUG   : index page, method is GET
+2018-01-11 16:38:21,810 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:38:21,810 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:38:24,804 DEBUG   : 2018-01-11_151455_4.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_4.jpg
+2018-01-11 16:38:50,430 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:38:50,430 DEBUG   : index page, method is GET
+2018-01-11 16:38:50,513 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:38:50,514 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:38:53,460 DEBUG   : 2018-01-11_151455_5.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_5.jpg
+2018-01-11 16:39:15,876 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:39:15,876 DEBUG   : index page, method is GET
+2018-01-11 16:39:15,937 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:39:15,937 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:39:19,522 DEBUG   : 2018-01-11_151455_6.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_6.jpg
+2018-01-11 16:39:50,334 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:39:50,335 DEBUG   : index page, method is GET
+2018-01-11 16:39:50,558 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:39:50,559 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:39:53,994 DEBUG   : 2018-01-11_151455_7.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_7.jpg
+2018-01-11 16:41:02,925 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:41:02,926 DEBUG   : index page, method is GET
+2018-01-11 16:41:03,097 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:41:03,097 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:41:06,458 DEBUG   : 2018-01-11_151455_8.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_8.jpg
+2018-01-11 16:41:14,718 DEBUG   : filename is 2018-01-11_151455_8.jpg
+2018-01-11 16:41:17,299 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:41:17,299 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:41:20,704 DEBUG   : 2018-01-11_151455_9.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_9.jpg
+2018-01-11 16:42:46,399 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:42:46,399 DEBUG   : index page, method is GET
+2018-01-11 16:42:46,556 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:42:46,556 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:43:10,650 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:43:10,651 DEBUG   : index page, method is GET
+2018-01-11 16:43:10,804 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:43:10,805 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:43:57,967 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:43:57,968 DEBUG   : index page, method is GET
+2018-01-11 16:43:58,126 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:43:58,126 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:44:41,472 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:44:41,472 DEBUG   : index page, method is GET
+2018-01-11 16:44:41,553 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:44:41,553 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:44:47,916 DEBUG   : 2018-01-11_151455_10.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_10.jpg
+2018-01-11 16:45:46,537 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:45:46,537 DEBUG   : index page, method is GET
+2018-01-11 16:45:46,619 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:45:46,619 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:45:49,967 DEBUG   : 2018-01-11_151455_11.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455_11.jpg
+2018-01-11 16:45:58,137 DEBUG   : filename is 2018-01-11_151455_11.jpg
+2018-01-11 16:46:00,111 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:00,111 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:03,803 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:03,803 DEBUG   : index page, method is GET
+2018-01-11 16:46:03,864 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:03,864 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:29,616 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:29,616 DEBUG   : index page, method is GET
+2018-01-11 16:46:29,672 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:29,672 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:46:45,363 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-11 16:46:45,363 DEBUG   : Authorization is None
+2018-01-11 16:46:45,383 DEBUG   : login get method
+2018-01-11 16:46:47,152 DEBUG   : login post method
+2018-01-11 16:46:49,306 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-11 16:46:49,306 DEBUG   : next is /
+2018-01-11 16:46:49,323 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:46:49,323 DEBUG   : index page, method is GET
+2018-01-11 16:46:50,029 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:46:50,030 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:54:40,389 DEBUG   : 2018-01-11_151455.jpg url is http://127.0.0.1:9000/files/2018-01-11_151455.jpg
+2018-01-11 16:55:40,106 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:55:40,106 DEBUG   : index page, method is GET
+2018-01-11 16:55:40,255 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:55:40,256 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:55:46,800 DEBUG   : upload file exception: resolve_conflict() missing 2 required positional arguments: 'target_folder' and 'basename'
+2018-01-11 16:56:59,753 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:56:59,754 DEBUG   : index page, method is GET
+2018-01-11 16:56:59,875 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:56:59,875 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:57:08,140 DEBUG   : IMG20171224140804_1_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_1.jpg
+2018-01-11 16:58:27,312 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 16:58:27,313 DEBUG   : index page, method is GET
+2018-01-11 16:58:27,408 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:58:27,408 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:58:35,702 DEBUG   : IMG20171224140804_1_2.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_2.jpg
+2018-01-11 16:58:44,532 DEBUG   : filename is IMG20171224140804_1_2.jpg
+2018-01-11 16:58:49,736 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 16:58:49,736 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 16:58:59,460 DEBUG   : IMG20171224140804_1_3.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_3.jpg
+2018-01-11 17:01:30,305 DEBUG   : IMG20171224140804_1_4.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_4.jpg
+2018-01-11 17:01:48,147 DEBUG   : IMG20171224140804_1_5.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_5.jpg
+2018-01-11 17:02:01,483 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 17:02:01,483 DEBUG   : index page, method is GET
+2018-01-11 17:02:01,542 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 17:02:01,542 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:32:48,586 DEBUG   : request_loader url is http://127.0.0.1:9000/logout, request args is ImmutableMultiDict([])
+2018-01-11 19:32:48,586 DEBUG   : Authorization is None
+2018-01-11 19:32:48,594 DEBUG   : login get method
+2018-01-11 19:32:50,177 DEBUG   : login post method
+2018-01-11 19:32:50,177 DEBUG   : next is /logout
+2018-01-11 19:32:50,197 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:32:50,197 DEBUG   : logout page
+2018-01-11 19:32:50,202 DEBUG   : login get method
+2018-01-11 19:32:50,203 DEBUG   : request_loader url is http://127.0.0.1:9000/login, request args is ImmutableMultiDict([])
+2018-01-11 19:32:50,203 DEBUG   : Authorization is None
+2018-01-11 19:32:59,124 DEBUG   : login post method
+2018-01-11 19:32:59,125 DEBUG   : next is None
+2018-01-11 19:32:59,132 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:32:59,132 DEBUG   : index page, method is GET
+2018-01-11 19:32:59,246 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 19:32:59,246 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:33:20,506 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-11 19:34:26,823 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-11 19:34:26,823 DEBUG   : index page, method is GET
+2018-01-11 19:34:27,019 DEBUG   : get_list: page = 1, limit = 5
+2018-01-11 19:34:27,019 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-11 19:34:48,179 DEBUG   : Exception in get_monitor_flask_sqlalchemy (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '10.214.168.25:3306' (10060 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+2018-01-11 19:34:48,451 DEBUG   : IMG20170422084710.jpg url is http://127.0.0.1:9000/files/IMG20170422084710.jpg
+2018-01-11 19:35:06,778 DEBUG   : IMG20170422084710_1.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_1.jpg
+2018-01-11 19:35:19,275 DEBUG   : IMG20170422084710_2.jpg url is http://127.0.0.1:9000/files/IMG20170422084710_2.jpg
+2018-01-12 10:59:58,256 DEBUG   : request_loader url is http://127.0.0.1:9000/, request args is ImmutableMultiDict([])
+2018-01-12 10:59:58,256 DEBUG   : Authorization is None
+2018-01-12 10:59:58,261 DEBUG   : login get method
+2018-01-12 11:00:00,232 DEBUG   : login post method
+2018-01-12 11:00:03,256 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-12 11:00:03,256 DEBUG   : next is /
+2018-01-12 11:00:03,352 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:00:03,353 DEBUG   : index page, method is GET
+2018-01-12 11:00:03,808 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:00:03,808 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:00:48,475 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:00:48,475 DEBUG   : index page, method is GET
+2018-01-12 11:00:48,623 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:00:48,623 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:00:53,643 DEBUG   : IMG20171224140804_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1.jpg
+2018-01-12 11:01:01,353 DEBUG   : filename is IMG20171224140804_1.jpg
+2018-01-12 11:01:15,680 DEBUG   : path is files/IMG20171224140804_1.jpg
+2018-01-12 11:03:22,470 DEBUG   : path is files/IMG20171224140804_1.jpg
+2018-01-12 11:17:01,616 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 11:17:01,616 DEBUG   : index page, method is GET
+2018-01-12 11:17:01,885 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:17:01,885 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 11:17:06,728 DEBUG   : IMG20171224140804_1_1.jpg url is http://127.0.0.1:9000/files/IMG20171224140804_1_1.jpg
+2018-01-12 11:17:10,133 DEBUG   : filename is IMG20171224140804_1_1.jpg
+2018-01-12 11:17:12,346 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 11:17:12,346 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 14:45:30,667 DEBUG   : login post method
+2018-01-12 14:45:33,595 DEBUG   : db user id is admin, detail is <id is 1, username is admin, password is F865B53623B121FD34EE5426C792E5C33AF8C227, email is xieyong11@wanda.cn, create time is 2017-05-17 13:48:06, update time is 2017-11-23 14:31:20>
+2018-01-12 14:45:33,595 DEBUG   : next is None
+2018-01-12 14:45:33,697 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 14:45:33,698 DEBUG   : index page, method is GET
+2018-01-12 14:45:33,873 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 14:45:33,873 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 14:47:12,434 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 14:49:47,604 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 14:49:47,604 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 15:00:04,264 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 15:00:04,264 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 15:21:53,474 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 15:21:53,474 DEBUG   : index page, method is GET
+2018-01-12 15:21:53,585 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 15:21:53,585 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 15:51:31,360 DEBUG   : D:\work\PyCharm\flask-sqlalchemy-web\monitor
+2018-01-12 15:51:31,361 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 16:01:32,162 DEBUG   : monitor view blueprint monitor_blueprint
+2018-01-12 16:01:32,162 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:01:32,164 DEBUG   : Exception is monitor_blueprint.html
+2018-01-12 16:01:32,190 DEBUG   : monitor view blueprint favicon.ico
+2018-01-12 16:01:32,190 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:01:32,190 DEBUG   : Exception is monitor_blueprint.html
+2018-01-12 16:04:11,688 DEBUG   : monitor view blueprint monitor_blueprint
+2018-01-12 16:04:11,688 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:20:37,673 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:26,408 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,318 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,541 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,734 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:28,918 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:21:35,110 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:54,770 DEBUG   : admin page is index
+2018-01-12 16:23:54,770 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:55,955 DEBUG   : admin page is index
+2018-01-12 16:23:55,956 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,209 DEBUG   : admin page is index
+2018-01-12 16:23:56,210 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,419 DEBUG   : admin page is index
+2018-01-12 16:23:56,419 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:23:56,612 DEBUG   : admin page is index
+2018-01-12 16:23:56,612 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:42,629 DEBUG   : admin page is index
+2018-01-12 16:26:42,629 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,383 DEBUG   : admin page is index
+2018-01-12 16:26:43,384 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,599 DEBUG   : admin page is index
+2018-01-12 16:26:43,599 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,783 DEBUG   : admin page is index
+2018-01-12 16:26:43,783 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:43,983 DEBUG   : admin page is index
+2018-01-12 16:26:43,984 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,183 DEBUG   : admin page is index
+2018-01-12 16:26:44,183 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,378 DEBUG   : admin page is index
+2018-01-12 16:26:44,378 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:26:44,639 DEBUG   : admin page is index
+2018-01-12 16:26:44,640 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:00,844 DEBUG   : admin page is index
+2018-01-12 16:27:00,844 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,134 DEBUG   : admin page is index
+2018-01-12 16:27:01,134 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,349 DEBUG   : admin page is index
+2018-01-12 16:27:01,350 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:27:01,550 DEBUG   : admin page is index
+2018-01-12 16:27:01,550 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:32:36,544 DEBUG   : admin page is index
+2018-01-12 16:32:36,544 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:32:47,616 DEBUG   : "style.css" url is "/static/css/style.css"
+2018-01-12 16:52:55,065 DEBUG   : admin page is index
+2018-01-12 16:52:55,065 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:52:55,445 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:52:55,445 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:53:12,631 DEBUG   : admin page is index
+2018-01-12 16:53:12,631 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:53:12,738 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:53:12,738 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:53:54,988 DEBUG   : admin page is index
+2018-01-12 16:53:54,989 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:55:59,266 DEBUG   : admin page is index
+2018-01-12 16:55:59,266 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-12 16:55:59,484 DEBUG   : get_list: page = 1, limit = 5
+2018-01-12 16:55:59,485 DEBUG   : get_monitor_flask_sqlalchemy: page is 1, limit is 5
+2018-01-12 16:56:22,134 DEBUG   : admin page is index
+2018-01-12 16:56:22,134 DEBUG   : user_loader user is admin, is_authenticated True
+2018-01-15 09:10:29,676 DEBUG   : admin page is index
+2018-01-15 09:10:29,677 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:10:29,678 DEBUG   : Authorization is None
+2018-01-15 09:10:35,328 DEBUG   : admin page is index
+2018-01-15 09:10:35,329 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:10:35,329 DEBUG   : Authorization is None
+2018-01-15 09:13:49,993 DEBUG   : admin page is index
+2018-01-15 09:13:49,994 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:13:49,994 DEBUG   : Authorization is None
+2018-01-15 09:13:58,625 DEBUG   : admin page is index
+2018-01-15 09:13:58,626 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:13:58,626 DEBUG   : Authorization is None
+2018-01-15 09:14:52,005 DEBUG   : admin page is index
+2018-01-15 09:14:52,006 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:14:52,006 DEBUG   : Authorization is None
+2018-01-15 09:15:16,817 DEBUG   : admin page is index
+2018-01-15 09:15:16,818 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:15:16,818 DEBUG   : Authorization is None
+2018-01-15 09:16:58,518 DEBUG   : admin page is index
+2018-01-15 09:16:58,519 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:16:58,519 DEBUG   : Authorization is None
+2018-01-15 09:17:08,020 DEBUG   : admin page is index
+2018-01-15 09:17:08,021 DEBUG   : request_loader url is http://127.0.0.1:9000/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:17:08,021 DEBUG   : Authorization is None
+2018-01-15 09:17:14,172 DEBUG   : admin page is index
+2018-01-15 09:17:14,173 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:17:14,173 DEBUG   : Authorization is None
+2018-01-15 09:20:15,472 DEBUG   : get method is 1
+2018-01-15 09:20:20,519 DEBUG   : admin page is index
+2018-01-15 09:20:20,520 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:20:20,520 DEBUG   : Authorization is None
+2018-01-15 09:21:49,997 DEBUG   : admin page is index
+2018-01-15 09:21:49,998 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/index, request args is ImmutableMultiDict([])
+2018-01-15 09:21:49,999 DEBUG   : Authorization is None
+2018-01-15 09:23:02,583 DEBUG   : admin page is kd
+2018-01-15 09:23:02,584 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/kd, request args is ImmutableMultiDict([])
+2018-01-15 09:23:02,584 DEBUG   : Authorization is None
+2018-01-15 09:23:35,800 DEBUG   : admin page is kd
+2018-01-15 09:23:35,801 DEBUG   : request_loader url is http://127.0.0.1:9000/v1/admin/kd, request args is ImmutableMultiDict([])
+2018-01-15 09:23:35,801 DEBUG   : Authorization is None
+2018-01-15 09:23:40,485 DEBUG   : admin page is index
 
